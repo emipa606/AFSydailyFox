@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Damage -->
+  <DamageDef ParentName="AF_SydailyFlashDamageBase">
+    <defName>AF_DA_StrangeCapsuleOpen</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>-</label>
+    <!-- NOTG -->
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <canInterruptJobs>false</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <minDamageToFragment>0</minDamageToFragment>
+    <defaultDamage>0</defaultDamage>
+    <defaultStoppingPower>0</defaultStoppingPower>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+    <buildingDamageFactor>0</buildingDamageFactor>
+    <plantDamageFactor>0</plantDamageFactor>
+    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+    <explosionCellMote>AF_Mote_NOTG</explosionCellMote>
+    <!-- NOTG -->
+    <soundExplosion>DropPod_Open</soundExplosion>
+    <!-- NOTG -->
+    <combatLogRules>Damage_Flame</combatLogRules>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+    <isExplosive>true</isExplosive>
+  </DamageDef>
+</Defs>

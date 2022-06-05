@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>AF_SydailyFlash_Purple</defName>
+    <graphicData>
+      <texPath>Motes/SydailyFlash_Purple</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(4.2,4.2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>2.2</fadeInTime>
+      <solidTime>24.2</solidTime>
+      <fadeOutTime>14.2</fadeOutTime>
+      <growthRate>0.12</growthRate>
+    </mote>
+  </ThingDef>
+</Defs>

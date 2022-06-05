@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Left -->
+  <HediffDef>
+    <defName>SydailyIn</defName>
+    <label>斯黛莉网络</label>
+    <description>斯黛莉的根系已经遍布狐狸的全身，
+		\n\n她联络着两枚斯黛莉水晶，以独特的方式保护主人。</description>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.98, 0.93, 0.59)</defaultLabelColor>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+        <painFactor>1</painFactor>
+        <totalBleedFactor>0.02</totalBleedFactor>
+        <naturalHealingFactor>42</naturalHealingFactor>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffGiverSetDef>
+    <defName>SydailyFoxHediffSet_SydailyIn</defName>
+    <hediffGivers>
+      <li Class="HediffGiver_Birthday">
+        <hediff>SydailyIn</hediff>
+        <ageFractionChanceCurve>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </ageFractionChanceCurve>
+      </li>
+    </hediffGivers>
+  </HediffGiverSetDef>
+</Defs>

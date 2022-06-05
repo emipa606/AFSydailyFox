@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>Sign_SydailyBomb_Warning</defName>
+    <!-- Sign_SydailyBomb_Warning -->
+    <graphicData>
+      <texPath>SydailyBomb/SydailyBomb_SpawnFlash</texPath>
+      <shaderType>Transparent</shaderType>
+      <drawSize>6</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>false</drawOffscreen>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <solidTime>0.22</solidTime>
+      <fadeOutTime>0.22</fadeOutTime>
+      <growthRate>0</growthRate>
+    </mote>
+  </ThingDef>
+  <EffecterDef>
+    <defName>Sign_SydailyFoxAttack</defName>
+    <!-- Effect_SydailyCrystalExplosion_Purple -->
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>Sign_SydailyBomb_Warning</moteDef>
+        <rotationRate>0~0</rotationRate>
+        <scale>
+          <min>1</min>
+          <max>1</max>
+        </scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>AF_BaseSign</moteDef>
+        <scale>
+          <min>1</min>
+          <max>1</max>
+        </scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>AF_IncomingSign_A</moteDef>
+        <scale>
+          <min>1</min>
+          <max>1</max>
+        </scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>AF_IncomingSign_B</moteDef>
+        <scale>
+          <min>1</min>
+          <max>1</max>
+        </scale>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

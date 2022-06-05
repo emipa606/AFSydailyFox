@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Damage -->
+  <AF_DA_StrangeCapsuleOpen.label>-</AF_DA_StrangeCapsuleOpen.label>
+  <AF_DA_StrangeCapsuleOpen.deathMessage>{0} 。</AF_DA_StrangeCapsuleOpen.deathMessage>
+</LanguageData>

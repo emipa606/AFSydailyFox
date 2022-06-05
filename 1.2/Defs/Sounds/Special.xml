@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>AF_SOSP_SydailyBomb</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <sustainStartSound>AF_SO_SUSSB_Start</sustainStartSound>
+    <sustainStopSound>AF_SO_SUSSB_Stop</sustainStopSound>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>SydailyBomb/SydailyBomb_RideUp</clipPath>
+          </li>
+        </grains>
+        <volumeRange>42~42</volumeRange>
+        <pitchRange>1~1.015</pitchRange>
+        <distRange>0~50.27907</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>AF_SOSP_FailedExperiments</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <sustainStartSound>AF_SO_SUSBF_Start</sustainStartSound>
+    <sustainStopSound>AF_SO_SUSBF_Stop</sustainStopSound>
+    <sustainFadeoutTime>0.25</sustainFadeoutTime>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>BloodFog/HersSaying</clipPath>
+          </li>
+        </grains>
+        <volumeRange>64~92</volumeRange>
+        <pitchRange>0.32~0.62</pitchRange>
+        <distRange>25~2520.27907</distRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

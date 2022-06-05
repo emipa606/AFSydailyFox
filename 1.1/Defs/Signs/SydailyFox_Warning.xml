@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>SydailyFox_Warning</defName>
+    <!-- SydailyFox_Warning -->
+    <graphicData>
+      <texPath>Signs/BaseSign</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>6</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <solidTime>0.82</solidTime>
+      <fadeOutTime>0.42</fadeOutTime>
+      <growthRate>0</growthRate>
+    </mote>
+  </ThingDef>
+</Defs>

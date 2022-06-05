@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Left -->
+  <SydailyOnCheek_Left.label>Sydaily Crystal【left】</SydailyOnCheek_Left.label>
+  <SydailyOnCheek_Left.description>This is the crystal on the left cheek of SydailyFox,
+		\n\nIt's cold to the touch...Pray the Fox won't catch a cold~</SydailyOnCheek_Left.description>
+  <!-- Right -->
+  <SydailyOnCheek_Right.label>Sydaily Crystal【right】</SydailyOnCheek_Right.label>
+  <SydailyOnCheek_Right.description>This is the crystal on the right cheek of SydailyFox,
+		\n\nAnd cold to the touch.</SydailyOnCheek_Right.description>
+</LanguageData>

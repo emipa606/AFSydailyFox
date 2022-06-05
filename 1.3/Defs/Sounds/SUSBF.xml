@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>AF_SO_SUSBF_Start</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>BloodFog/BloodWind</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>120</min>
+          <max>240</max>
+        </volumeRange>
+        <distRange>
+          <min>0</min>
+          <max>2520.27907</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>AF_SO_SUSBF_Stop</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>BloodFog/BloodWind</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>24</min>
+          <max>82</max>
+        </volumeRange>
+        <distRange>
+          <min>0</min>
+          <max>252.27907</max>
+        </distRange>
+        <pitchRange>
+          <min>0.4</min>
+          <max>2.4</max>
+        </pitchRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

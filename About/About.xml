@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>【AF】SydailyFox (Continued)</name>
+  <packageId>Mlie.AFSydailyFox</packageId>
+  <author>Amlifurx</author>
+  <url>https://github.com/emipa606/AFSydailyFox</url>
+  <supportedVersions>
+    <li>1.1</li>
+    <li>1.2</li>
+    <li>1.3</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Amlifurxs mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2134320184
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/AFSydailyFox][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+This mod add：
+
+-for game
+
+-1 Animal
+-2 Special ATTACK (try telling the Fox to fight)
+-2 Special buildings (Natural Architecture)
+-3 Building (You can build~UwU)
+-1 Special event (Incident)
+-1 Special resource
+-1 Special food
+-1 New joy kind
+-1 New animal nuzzle kind (Interaction)
+
+-for player
+
+-10 Sounds / Music
+-16 Special effects
+-7   New signs (include attack warnings、fox nuzzle...)
+
+----------------------------------------------------------------------------------------------------
+
+[h1]【Animal】-【SydailyFox】[/h1]
+
+A cute furry fox !
+Cute, docile, playful and capable Little Fox ! 
+You can find them in polar ecosystems (0.0142~0.024, other:0.0042~0.0102) . 
+One thing to note is that SydailyFox has a very specific attack style, so be very careful when you call they a fight !
+
+
+！！！Use Animal Range Attack from-【https://steamcommunity.com/sharedfiles/filedetails/?id=1263611490 [BrokenValkyrie]】- With some special work
+--------Don't need to install this mod.(It is self-contained.)
+
+----------------------------------------------------------------------------------------------------
+
+Language：
+-English
+-Chinese(Simplified)
+-...
+
+Tag:
+Incidents Expanded，Weapons Expanded， Animal Expanded，Cute pets ，Fox
+Chinese Text，English Text
+
+----------------------------------------------------------------------------------------------------
+
+[h1]-Please point out any problem you find![/h1]
+
+----------------------------------------------------------------------------------------------------
+
+Child Mod-【https://steamcommunity.com/sharedfiles/filedetails/?id=2166575832】
+Fox Lamp——Add two new [Traditional luminaires] and a [Bamboo]
+
+----------------------------------------------------------------------------------------------------
+
+[h1]I don't have English Language![/h1] 
+
+You need to be here:
+
+SteamLibrary\steamapps\workshop\content\294100\2134320184\Languages
+
+and 【Change】 the “English” Folder's Name to your country's language.
+
+XwX
+
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
+</ModMetaData>

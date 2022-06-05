@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AF_theFurLight_Normal.label>-</AF_theFurLight_Normal.label>
+  <AF_theFurLight_Normal.description>A ordinary lamp. Can Be used to heat a space, requiring frequent fuel additions.</AF_theFurLight_Normal.description>
+  <AF_theFurLight_Normal_Blueprint.label>- (blueprint)</AF_theFurLight_Normal_Blueprint.label>
+  <AF_theFurLight_Normal_Blueprint_Install.label>- (blueprint)</AF_theFurLight_Normal_Blueprint_Install.label>
+  <AF_theFurLight_Normal_Frame.label>- (building)</AF_theFurLight_Normal_Frame.label>
+  <AF_theFurLight_Normal_Frame.description>A ordinary lamp. Can Be used to heat a space, requiring frequent fuel additions.</AF_theFurLight_Normal_Frame.description>
+</LanguageData>

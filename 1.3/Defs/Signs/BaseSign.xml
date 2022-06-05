@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>AF_BaseSign</defName>
+    <!-- AF_BaseSign -->
+    <graphicData>
+      <texPath>Signs/BaseSign</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>6</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <solidTime>1.42</solidTime>
+      <fadeOutTime>0.42</fadeOutTime>
+      <growthRate>0</growthRate>
+    </mote>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>AF_IncomingSign_A</defName>
+    <!-- AF_IncomingSign_A -->
+    <graphicData>
+      <texPath>Signs/BaseSign</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>48</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.2</fadeInTime>
+      <solidTime>1.42</solidTime>
+      <fadeOutTime>0.42</fadeOutTime>
+      <growthRate>-2.5</growthRate>
+    </mote>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>AF_IncomingSign_B</defName>
+    <!-- AF_IncomingSign_B -->
+    <graphicData>
+      <texPath>Signs/BaseSign</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>96</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.2</fadeInTime>
+      <solidTime>1.42</solidTime>
+      <fadeOutTime>0.42</fadeOutTime>
+      <growthRate>-5</growthRate>
+    </mote>
+  </ThingDef>
+</Defs>

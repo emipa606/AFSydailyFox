@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <InteractionThatSydailyFoxNuzzle.label>a cold nuzzle</InteractionThatSydailyFoxNuzzle.label>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)-&gt;[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)-&gt;psionically nuzzled</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>nuzzled-&gt;psionically snuggled up to</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-&gt;</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb-&gt;gently</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb-&gt;encouragingly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb-&gt;happily</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb-&gt;softly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb-&gt;supportively</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb-&gt;lightly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb-&gt;warmly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb-&gt;plaintively</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb-&gt;lovingly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb-&gt;affectionately</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>rubbedpart-&gt;leg</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>rubbedpart-&gt;knee</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>rubbedpart-&gt;foot</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>rubbedpart-&gt;elbow</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>rubbedpart-&gt;hip</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>rubbedpart-&gt;shoulder</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>rubbedpart-&gt;hand</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>rubbedpart-&gt;side</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>rubbedpart-&gt;arm</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>rubbedpart(p=2)-&gt;genitals</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>
+</LanguageData>

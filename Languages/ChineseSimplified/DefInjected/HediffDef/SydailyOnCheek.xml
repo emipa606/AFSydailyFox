@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Left -->
+  <SydailyOnCheek_Left.label>斯黛莉水晶【左】</SydailyOnCheek_Left.label>
+  <SydailyOnCheek_Left.description>这是斯黛莉晶狐左脸脸颊上的水晶，
+		\n\n摸上去冰冰凉，希望狐狸不会感冒~</SydailyOnCheek_Left.description>
+  <!-- Right -->
+  <SydailyOnCheek_Right.label>斯黛莉水晶【右】</SydailyOnCheek_Right.label>
+  <SydailyOnCheek_Right.description>这是斯黛莉晶狐右脸脸颊上的水晶，
+		\n\n摸上去也是冰冰凉的。</SydailyOnCheek_Right.description>
+</LanguageData>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>AF_Amli_StatueThink</defName>
+    <workerClass>SydailyFox_Settingpack.ThoughtWorker_Lansy_Statue</workerClass>
+    <stages>
+      <li>
+        <label>伟大的狐狸！</label>
+        <description>我们立下这座雕像，从此决心不变！</description>
+        <baseMoodEffect>5</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

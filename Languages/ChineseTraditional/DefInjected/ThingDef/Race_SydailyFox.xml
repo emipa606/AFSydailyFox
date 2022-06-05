@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <SydailyFox.label>&lt;color=#b487ff&gt;斯黛莉晶狐&lt;/color&gt;</SydailyFox.label>
+  <SydailyFox.description>奇怪的微粒穿透了墙壁，
+	\n夜色之下，那神秘的紫色光芒是多么的美丽。
+	\n\n它看起来像是一只吃胖了的赤狐，却又异常的温顺。
+	\n（甚至比我们的一些成员还要听话。）
+	\n\n可以清楚地看见狐狸脸颊两侧各镶嵌着一枚紫色的水晶...
+	\n你感觉到一丝寒冷...试图去触碰它...
+	\n越来越冷，越来越冷...</SydailyFox.description>
+  <SydailyFox.tools.0.label>&lt;color=#b487ff&gt;晶牙&lt;/color&gt;</SydailyFox.tools.0.label>
+  <SydailyFox.tools.1.label>左爪</SydailyFox.tools.1.label>
+  <SydailyFox.tools.2.label>右爪</SydailyFox.tools.2.label>
+</LanguageData>

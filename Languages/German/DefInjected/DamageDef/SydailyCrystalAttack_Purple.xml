@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Damage -->
+  <SydailyCrystalAttack_Purple.label>-</SydailyCrystalAttack_Purple.label>
+  <SydailyCrystalAttack_Purple.deathMessage>{0} 。</SydailyCrystalAttack_Purple.deathMessage>
+</LanguageData>
