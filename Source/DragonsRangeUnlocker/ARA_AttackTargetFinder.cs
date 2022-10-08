@@ -40,11 +40,7 @@ public static class ARA_AttackTargetFinder
         Func<IntVec3, bool> losValidator = null;
         if ((flags & TargetScanFlags.LOSBlockableByGas) > TargetScanFlags.None)
         {
-            losValidator = delegate(IntVec3 vec3)
-            {
-                var gas = vec3.GetGas(searcherThing.Map);
-                return gas == null || !gas.def.gas.blockTurretTracking;
-            };
+            losValidator = vec3 => !vec3.AnyGas(searcherThing.Map, GasType.BlindSmoke);
         }
 
         Predicate<IAttackTarget> innerValidator = delegate(IAttackTarget t)

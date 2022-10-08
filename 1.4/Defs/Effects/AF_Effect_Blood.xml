@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_BloodFog_A</defName>
+    <graphicData>
+      <texPath>Motes/BloodFog</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(4.2,4.2)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.42</fadeInTime>
+      <solidTime>0.42</solidTime>
+      <fadeOutTime>1.42</fadeOutTime>
+      <growthRate>0</growthRate>
+    </mote>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_BloodFog_B</defName>
+    <graphicData>
+      <texPath>Motes/BloodFog</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(6,6)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.5</fadeInTime>
+      <solidTime>0.5</solidTime>
+      <fadeOutTime>1</fadeOutTime>
+      <growthRate>0.12</growthRate>
+    </mote>
+  </ThingDef>
+  <EffecterDef>
+    <defName>AF_Effect_BloodFog</defName>
+    <!-- AF_Effect_BloodFog -->
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>Mote_BloodFog_A</moteDef>
+        <scale>
+          <min>1</min>
+          <max>1</max>
+        </scale>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

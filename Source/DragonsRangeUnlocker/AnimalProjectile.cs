@@ -7,10 +7,10 @@ namespace DragonsRangedAttack;
 
 public class AnimalProjectile : Projectile
 {
-    protected override void Impact(Thing hitThing)
+    protected override void Impact(Thing hitThing, bool blockedByShield = false)
     {
         var map = Map;
-        base.Impact(hitThing);
+        base.Impact(hitThing, blockedByShield);
         var battleLogEntry_RangedImpact = new BattleLogEntry_RangedImpact(launcher, hitThing, intendedTarget.Thing,
             ThingDef.Named("Gun_Autopistol"), def, targetCoverDef);
         Find.BattleLog.Add(battleLogEntry_RangedImpact);
@@ -26,7 +26,7 @@ public class AnimalProjectile : Projectile
             hitThing.TakeDamage(dinfo).AssociateWithLog(battleLogEntry_RangedImpact);
             if (hitThing is Pawn { stances: { } } pawn && pawn.BodySize <= def.projectile.StoppingPower + 0.001f)
             {
-                pawn.stances.StaggerFor(95);
+                pawn.stances.stagger.StaggerFor(95);
             }
 
             if (def.defName == "AA_FrostWeb")

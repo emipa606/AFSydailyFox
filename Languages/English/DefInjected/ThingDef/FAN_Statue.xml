@@ -3,7 +3,7 @@
   <FAN_Statue.label>Huge Statue Stand</FAN_Statue.label>
   <FAN_Statue.description>A steel frame covered with black cloth, used for building large statues.</FAN_Statue.description>
   <FAN_Statue_Blueprint.label>Huge Statue Stand(blueprint)</FAN_Statue_Blueprint.label>
-  <FAN_Statue_Blueprint_Install.label>Huge Statue Stand(blueprint)</FAN_Statue_Blueprint_Install.label>
+  <!-- <FAN_Statue_Blueprint_Install.label>Huge Statue Stand(blueprint)</FAN_Statue_Blueprint_Install.label> -->
   <FAN_Statue_Frame.label>Huge Statue Stand(building)</FAN_Statue_Frame.label>
   <FAN_Statue_Frame.description>A steel frame covered with black cloth, used for building large statues.</FAN_Statue_Frame.description>
   <Lansy_Statue.label>Sydaily?Fox?</Lansy_Statue.label>
@@ -12,7 +12,7 @@
 \n\n--By:AmliFurx
 \n--2020-10-12</Lansy_Statue.description>
   <Lansy_Statue_Blueprint.label>Sydaily?Fox?</Lansy_Statue_Blueprint.label>
-  <Lansy_Statue_Blueprint_Install.label>Sydaily?Fox?</Lansy_Statue_Blueprint_Install.label>
+  <!-- <Lansy_Statue_Blueprint_Install.label>Sydaily?Fox?</Lansy_Statue_Blueprint_Install.label> -->
   <Lansy_Statue_Frame.label>Sydaily?Fox?</Lansy_Statue_Frame.label>
   <Lansy_Statue_Frame.description>Where did Sydaily the Fox come from, and who do they belong to?
 		\nIt needs to be built in 【Huge Statue Stand】.
