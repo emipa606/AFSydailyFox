@@ -90,3 +90,4 @@ XwX
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2817403346]Last updated 2022-12-14

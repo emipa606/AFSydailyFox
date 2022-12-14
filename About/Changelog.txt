@@ -1,5 +1,8 @@
 # Changelog for AFSydailyFox
 
+1.4.2 - Fixed the Destroy Self-change in 1.4
+
+
 1.4.1 - Mod updated for 1.4 and passed autotests
 
 
