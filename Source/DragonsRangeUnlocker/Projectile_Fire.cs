@@ -45,7 +45,7 @@ public class Projectile_Fire : Projectile
                 var num = explosionRadius - item.DistanceTo(Position);
                 if (num > 0.1f)
                 {
-                    FireUtility.TryStartFireIn(item, map, num);
+                    FireUtility.TryStartFireIn(item, map, num, null);
                 }
             }
         }

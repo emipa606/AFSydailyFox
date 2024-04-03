@@ -18,7 +18,7 @@ public class ThoughtWorker_BloodFog_B : ThoughtWorker
         foreach (var thing in list)
         {
             var compPowerTrader = thing.TryGetComp<CompPowerTrader>();
-            if ((compPowerTrader == null || compPowerTrader.PowerOn) && p.Position.InHorDistOf(thing.Position, 2520f))
+            if ((compPowerTrader == null || compPowerTrader.PowerOn) && p.Position.InHorDistOf(thing.Position, Radius))
             {
                 return true;
             }

@@ -9,18 +9,17 @@ namespace DragonsRangedAttack;
 
 public static class ARA_AttackTargetFinder
 {
-    private static readonly List<IAttackTarget> tmpTargets = new List<IAttackTarget>();
+    private static readonly List<IAttackTarget> tmpTargets = [];
 
-    private static readonly List<Pair<IAttackTarget, float>> availableShootingTargets =
-        new List<Pair<IAttackTarget, float>>();
+    private static readonly List<Pair<IAttackTarget, float>> availableShootingTargets = [];
 
-    private static readonly List<float> tmpTargetScores = new List<float>();
+    private static readonly List<float> tmpTargetScores = [];
 
-    private static readonly List<bool> tmpCanShootAtTarget = new List<bool>();
+    private static readonly List<bool> tmpCanShootAtTarget = [];
 
-    private static readonly List<IntVec3> tempDestList = new List<IntVec3>();
+    private static readonly List<IntVec3> tempDestList = [];
 
-    private static readonly List<IntVec3> tempSourceList = new List<IntVec3>();
+    private static readonly List<IntVec3> tempSourceList = [];
 
     public static IAttackTarget BestAttackTarget(IAttackTargetSearcher searcher, TargetScanFlags flags,
         Predicate<Thing> validator = null, float minDist = 0f, float maxDist = 9999f, IntVec3 locus = default,
@@ -111,7 +110,7 @@ public static class ARA_AttackTargetFinder
                             }
                         }
 
-                        if (thing.def.size.x == 1 && thing.def.size.z == 1)
+                        if (thing.def.size is { x: 1, z: 1 })
                         {
                             if (thing.Position.Fogged(thing.Map))
                             {
@@ -240,13 +239,10 @@ public static class ARA_AttackTargetFinder
     private static IAttackTarget GetRandomShootingTargetByScore(List<IAttackTarget> targets,
         IAttackTargetSearcher searcher, Verb verb)
     {
-        if (GetAvailableShootingTargetsByScore(targets, searcher, verb)
-            .TryRandomElementByWeight(x => x.Second, out var result))
-        {
-            return result.First;
-        }
-
-        return null;
+        return GetAvailableShootingTargetsByScore(targets, searcher, verb)
+            .TryRandomElementByWeight(x => x.Second, out var result)
+            ? result.First
+            : null;
     }
 
     private static List<Pair<IAttackTarget, float>> GetAvailableShootingTargetsByScore(List<IAttackTarget> rawTargets,
@@ -368,7 +364,7 @@ public static class ARA_AttackTargetFinder
             var thingList = intVec.GetThingList(map);
             foreach (var thing in thingList)
             {
-                if (!(thing is IAttackTarget) || thing == target)
+                if (thing is not IAttackTarget || thing == target)
                 {
                     continue;
                 }
@@ -384,7 +380,7 @@ public static class ARA_AttackTargetFinder
                 }
 
                 var num3 = thing == searcher ? 40f :
-                    !(thing is Pawn) ? 10f :
+                    thing is not Pawn ? 10f :
                     !thing.def.race.Animal ? 18f : 7f;
                 num2 = !searcher.Thing.HostileTo(thing) ? num2 - num3 : num2 + (num3 * 0.6f);
             }
@@ -401,7 +397,7 @@ public static class ARA_AttackTargetFinder
 
     public static bool CanSee(this Thing seer, Thing target, Func<IntVec3, bool> validator = null)
     {
-        ShootLeanUtility.CalcShootableCellsOf(tempDestList, target);
+        ShootLeanUtility.CalcShootableCellsOf(tempDestList, target, seer.Position);
         foreach (var intVec3 in tempDestList)
         {
             if (GenSight.LineOfSight(seer.Position, intVec3, seer.Map, true, validator))

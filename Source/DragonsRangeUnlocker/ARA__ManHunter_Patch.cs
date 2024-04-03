@@ -9,7 +9,7 @@ namespace DragonsRangedAttack;
 [HarmonyPatch(typeof(JobGiver_Manhunter), "TryGiveJob")]
 public static class ARA__ManHunter_Patch
 {
-    private static bool Prefix(ref JobGiver_Manhunter __instance, ref Job __result, ref Pawn pawn)
+    private static bool Prefix(ref Job __result, ref Pawn pawn)
     {
         var rangedVerb = false;
         var allVerbs = pawn.verbTracker.AllVerbs;

@@ -7,13 +7,12 @@ namespace SydailyFox_Settingpack;
 
 public class ShowTheSydailyHediffEffect : HediffCompProperties
 {
+    public readonly int filthCount = 4;
+
+    public readonly int moteCount = 3;
     public ThingDef filth;
 
-    public int filthCount = 4;
-
     public ThingDef mote;
-
-    public int moteCount = 3;
 
     public FloatRange moteOffsetRange = new FloatRange(0.2f, 0.4f);
 
@@ -51,10 +50,7 @@ public class ShowTheSydailyHediffEffect : HediffCompProperties
                 FilthMaker.TryMakeFilth(Pawn.Position, Pawn.Map, Props.filth, Props.filthCount);
             }
 
-            if (Props.sound != null)
-            {
-                Props.sound.PlayOneShot(SoundInfo.InMap(Pawn));
-            }
+            Props.sound?.PlayOneShot(SoundInfo.InMap(Pawn));
         }
     }
 }

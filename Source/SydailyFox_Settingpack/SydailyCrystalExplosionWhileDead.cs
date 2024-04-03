@@ -1,5 +1,6 @@
 using RimWorld;
 using Verse;
+using Verse.AI.Group;
 
 namespace SydailyFox_Settingpack;
 
@@ -9,7 +10,7 @@ internal class SydailyCrystalExplosionWhileDead : DeathActionWorker
 
     public override bool DangerousInMelee => true;
 
-    public override void PawnDied(Corpse corpse)
+    public override void PawnDied(Corpse corpse, Lord prevLord)
     {
         GenExplosion.DoExplosion(
             radius: corpse.InnerPawn.ageTracker.CurLifeStageIndex == 0 ? 3.6f :

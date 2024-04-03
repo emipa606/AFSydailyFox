@@ -4,7 +4,7 @@ namespace SydailyFox_Settingpack;
 
 public class Attack_SydailyFox_ON : CompProperties
 {
-    public int lifespanTicks = 100;
+    public readonly int lifespanTicks = 100;
 
     public Attack_SydailyFox_ON()
     {

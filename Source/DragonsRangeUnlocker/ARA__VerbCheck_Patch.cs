@@ -3,7 +3,7 @@ using Verse;
 
 namespace DragonsRangedAttack;
 
-[HarmonyPatch(typeof(Pawn), "TryGetAttackVerb")]
+[HarmonyPatch(typeof(Pawn), nameof(Pawn.TryGetAttackVerb))]
 public static class ARA__VerbCheck_Patch
 {
     private static bool Prefix(ref Pawn __instance, ref Verb __result)

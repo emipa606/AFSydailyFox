@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>FoxAngry</defName>
+    <!-- Angry -->
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Fox/FoxWounded</clipPath>
+          </li>
+        </grains>
+        <volumeRange>30~90</volumeRange>
+        <pitchRange>0.8770588~1.837647</pitchRange>
+        <distRange>0~50.40025</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>FoxWounded</defName>
+    <!-- Ah -->
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Fox/FoxWounded</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~55</volumeRange>
+        <pitchRange>0.9541176~1.137647</pitchRange>
+        <distRange>0~70</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>FoxDeath</defName>
+    <!-- No!!!!! -->
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Fox/FoxDeath</clipPath>
+          </li>
+        </grains>
+        <volumeRange>45~55</volumeRange>
+        <pitchRange>0.9311764~1.068824</pitchRange>
+        <distRange>0~70</distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

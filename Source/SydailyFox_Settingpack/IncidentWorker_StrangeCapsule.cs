@@ -10,10 +10,10 @@ public class IncidentWorker_StrangeCapsule : IncidentWorker
 
     static IncidentWorker_StrangeCapsule()
     {
-        CountChance = new[]
-        {
+        CountChance =
+        [
             new Pair<int, float>(1, 1f)
-        };
+        ];
     }
 
     protected override bool CanFireNowSub(IncidentParms parms)

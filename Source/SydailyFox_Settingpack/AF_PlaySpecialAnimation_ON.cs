@@ -6,14 +6,15 @@ namespace SydailyFox_Settingpack;
 
 public class AF_PlaySpecialAnimation_ON : CompProperties
 {
+    public readonly int QuantitytoSpawn;
+
+    public readonly int TicktoSpawn;
     public Vector3 EndRange;
 
     public Color FirstColor;
     public ThingDef mote;
 
     public FloatRange PlaySize;
-
-    public int QuantitytoSpawn;
 
     public FloatRange RotationRate;
 
@@ -24,8 +25,6 @@ public class AF_PlaySpecialAnimation_ON : CompProperties
     public FloatRange SpeedrangeY;
 
     public Vector3 StartRange;
-
-    public int TicktoSpawn;
 
     public AF_PlaySpecialAnimation_ON()
     {

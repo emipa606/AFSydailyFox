@@ -21,7 +21,7 @@ public class JobDriver_SydailyFoxNuzzleJob : JobDriver
         yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch);
         yield return Toils_Interpersonal.WaitToBeAbleToInteract(pawn);
         Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch).socialMode = RandomSocialMode.Off;
-        Toils_General.WaitWith(TargetIndex.A, 100, false, true).socialMode = RandomSocialMode.Off;
+        Toils_General.WaitWith(TargetIndex.A, NuzzleDuration, false, true).socialMode = RandomSocialMode.Off;
         yield return Toils_General.Do(delegate
         {
             var recipient = (Pawn)pawn.CurJob.targetA.Thing;
