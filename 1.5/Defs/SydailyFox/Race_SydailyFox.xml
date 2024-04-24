@@ -128,6 +128,7 @@
     </verbs>
     <!-- Animal Race -->
     <race>
+      <animalType>Canine</animalType>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <!-- QuadrupedAnimalWithPawsAndTail -->
       <thinkTreeMain>Thinktree_SydailyFox</thinkTreeMain>
