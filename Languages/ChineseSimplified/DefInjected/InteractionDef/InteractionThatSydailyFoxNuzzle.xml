@@ -1,31 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <InteractionThatSydailyFoxNuzzle.label>冰冰凉的亲昵</InteractionThatSydailyFoxNuzzle.label>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)-&gt;[INITIATOR_nameDef][nuzzleadverb][nuzzled][RECIPIENT_nameDef]。</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>r_logentry-&gt;[INITIATOR_nameDef][nuzzleadverb]用[INITIATOR_possessive]鼻尖蹭了[RECIPIENT_nameDef]的[rubbedpart]。</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)-&gt;蹭了</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>nuzzled-&gt;依偎着</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-&gt;</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb-&gt;温柔地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb-&gt;鼓励地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb-&gt;欢快地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb-&gt;轻柔地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb-&gt;支持地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb-&gt;轻轻地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb-&gt;亲热地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb-&gt;幽怨地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb-&gt;亲切地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb-&gt;热烈地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>rubbedpart-&gt;腿</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>rubbedpart-&gt;膝盖</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>rubbedpart-&gt;脚</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>rubbedpart-&gt;肘部</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>rubbedpart-&gt;臀部</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>rubbedpart-&gt;肩膀</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>rubbedpart-&gt;手</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>rubbedpart-&gt;身旁</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>rubbedpart-&gt;手臂</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>
-  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>rubbedpart(p=2)-&gt;生殖器</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)->[INITIATOR_nameDef][nuzzleadverb][nuzzled][RECIPIENT_nameDef]。</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef][nuzzleadverb]用[INITIATOR_possessive]鼻尖蹭了[RECIPIENT_nameDef]的[rubbedpart]。</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)->蹭了</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>nuzzled->依偎着</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-></InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb->温柔地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb->鼓励地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb->欢快地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb->轻柔地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb->支持地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb->轻轻地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb->亲热地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb->幽怨地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb->亲切地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb->热烈地</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>rubbedpart->腿</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>rubbedpart->膝盖</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>rubbedpart->脚</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>rubbedpart->肘部</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>rubbedpart->臀部</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>rubbedpart->肩膀</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->手</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->身旁</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->手臂</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>rubbedpart(p=2)->生殖器</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>
   <!--<InteractionThatSydailyFoxInteractionThatSydailyFoxNuzzle.label>冰冰凉的亲昵</InteractionThatSydailyFoxInteractionThatSydailyFoxNuzzle.label>-->
   <!-- EN: r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef]. -->
   <!-- EN: r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart]. -->
@@ -51,4 +51,9 @@
   <!-- EN: rubbedpart->hand -->
   <!-- EN: rubbedpart->side -->
   <!-- EN: rubbedpart->arm -->
+  <!--The following translations were generated by https://www.deepl.com/-->
+  <!-- EN: 冰冰凉的亲昵 -->
+  <!-- EN: nuzzled(p=2)->psionically nuzzled -->
+  <!-- EN: nuzzled->psionically snuggled up to -->
+  <!-- EN: rubbedpart(p=2)->genitals -->
 </LanguageData>

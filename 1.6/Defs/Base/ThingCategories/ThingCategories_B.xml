@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>AF_TC_RimFurry_Building_Thankyou_Y</defName>
+    <label>HEWWO</label>
+    <parent>Buildings</parent>
+  </ThingCategoryDef>
+  <!-- 消耗品 -->
+  <ThingCategoryDef>
+    <defName>AF_TC_RimFurry_Goods_xiaohaopin_Y</defName>
+    <label>AF-消耗品</label>
+    <parent>Manufactured</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>SydailyFlower</iconPath>
+  </ThingCategoryDef>
+  <!-- 收集品 -->
+  <ThingCategoryDef>
+    <defName>AF_TC_RimFurry_Goods_shoujipin_Y</defName>
+    <label>AF-收集品</label>
+    <parent>Manufactured</parent>
+    <resourceReadoutRoot>true</resourceReadoutRoot>
+    <iconPath>SydailyFlower</iconPath>
+  </ThingCategoryDef>
+</Defs>

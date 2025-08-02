@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: FuRim -->
+  <AF_TC_RimFurry.label>FuRim</AF_TC_RimFurry.label>
+  <!-- EN: 建筑 -->
+  <AF_TC_RimFurry_Building.label>建筑</AF_TC_RimFurry_Building.label>
+  <!-- EN: HEWWO -->
+  <AF_TC_RimFurry_Building_Thankyou.label>HEWWO</AF_TC_RimFurry_Building_Thankyou.label>
+  <!-- EN: 自然 -->
+  <AF_TC_RimFurry_Building_ziran.label>自然</AF_TC_RimFurry_Building_ziran.label>
+  <!-- EN: 物品 -->
+  <AF_TC_RimFurry_Goods.label>物品</AF_TC_RimFurry_Goods.label>
+  <!-- EN: 收集品 -->
+  <AF_TC_RimFurry_Goods_shoujipin.label>收集品</AF_TC_RimFurry_Goods_shoujipin.label>
+  <!-- EN: 消耗品 -->
+  <AF_TC_RimFurry_Goods_xiaohaopin.label>消耗品</AF_TC_RimFurry_Goods_xiaohaopin.label>
+</LanguageData>

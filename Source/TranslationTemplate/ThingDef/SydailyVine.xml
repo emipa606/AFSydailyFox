@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 斯黛莉藤 -->
+  <SydailyVine_Tiny_SydailyFox.label>斯黛莉藤</SydailyVine_Tiny_SydailyFox.label>
+  <!-- EN: 这是从狐狸耳朵里长出来的奇怪植物。\n	\n\n脱离狐狸的藤蔓正在迅速腐烂。\n	\n\n（绝大多数的种族都无法接受它的味道。） -->
+  <SydailyVine_Tiny_SydailyFox.description>这是从狐狸耳朵里长出来的奇怪植物。
+	
+
+脱离狐狸的藤蔓正在迅速腐烂。
+	
+
+（绝大多数的种族都无法接受它的味道。）</SydailyVine_Tiny_SydailyFox.description>
+  <!-- EN: \n<color=#fbef97>既然它是从狐狸耳朵里长出来的...</color> -->
+  <SydailyVine_Tiny_SydailyFox.comps.CompUsable.useLabel>
+&lt;color=#fbef97>既然它是从狐狸耳朵里长出来的...&lt;/color></SydailyVine_Tiny_SydailyFox.comps.CompUsable.useLabel>
+</LanguageData>

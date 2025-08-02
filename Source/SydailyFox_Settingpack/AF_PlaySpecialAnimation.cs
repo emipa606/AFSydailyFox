@@ -6,9 +6,9 @@ namespace SydailyFox_Settingpack;
 
 public class AF_PlaySpecialAnimation : ThingComp
 {
-    public bool emittedBefore;
+    private bool emittedBefore;
 
-    public int ticksSinceLastEmitted;
+    private int ticksSinceLastEmitted;
 
     private Vector3 EmissionOffset => new Vector3(Rand.Range(Props.StartRange.x, Props.EndRange.x),
         Rand.Range(Props.StartRange.y, Props.EndRange.y), Rand.Range(Props.StartRange.z, Props.EndRange.z));
@@ -61,12 +61,12 @@ public class AF_PlaySpecialAnimation : ThingComp
                 return;
             }
 
-            Emit();
+            emit();
             emittedBefore = true;
         }
         else if (ticksSinceLastEmitted >= Props.TicktoSpawn)
         {
-            Emit();
+            emit();
             ticksSinceLastEmitted = 0;
         }
         else
@@ -75,7 +75,7 @@ public class AF_PlaySpecialAnimation : ThingComp
         }
     }
 
-    private void Emit()
+    private void emit()
     {
         for (var i = 0; i < Props.QuantitytoSpawn; i++)
         {

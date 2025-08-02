@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: <color=#b487ff>斯黛莉晶狐</color> -->
+  <SydailyFox.label>&lt;color=#b487ff>斯黛莉晶狐&lt;/color></SydailyFox.label>
+  <!-- EN: 奇怪的微粒穿透了墙壁，\n	\n夜色之下，那神秘的紫色光芒是多么的美丽。\n	\n\n它看起来像是一只吃胖了的赤狐，却又异常的温顺。\n	\n（甚至比我们的一些成员还要听话。）\n	\n\n可以清楚地看见狐狸脸颊两侧各镶嵌着一枚紫色的水晶...\n	\n你感觉到一丝寒冷...试图去触碰它...\n	\n越来越冷，越来越冷... -->
+  <SydailyFox.description>奇怪的微粒穿透了墙壁，
+	
+夜色之下，那神秘的紫色光芒是多么的美丽。
+	
+
+它看起来像是一只吃胖了的赤狐，却又异常的温顺。
+	
+（甚至比我们的一些成员还要听话。）
+	
+
+可以清楚地看见狐狸脸颊两侧各镶嵌着一枚紫色的水晶...
+	
+你感觉到一丝寒冷...试图去触碰它...
+	
+越来越冷，越来越冷...</SydailyFox.description>
+  <!-- EN: <color=#b487ff>晶牙</color> -->
+  <SydailyFox.tools.colorb487ffcolor.label>&lt;color=#b487ff>晶牙&lt;/color></SydailyFox.tools.colorb487ffcolor.label>
+  <!-- EN: 左爪 -->
+  <SydailyFox.tools.1.label>左爪</SydailyFox.tools.1.label>
+  <!-- EN: 右爪 -->
+  <SydailyFox.tools.2.label>右爪</SydailyFox.tools.2.label>
+  <!-- EN: <color=#b487ff>斯黛莉晶狐</color> -->
+  <SydailyFox.verbs.TrytoMakeSydailyFoxWarningEffect.label>&lt;color=#b487ff>斯黛莉晶狐&lt;/color></SydailyFox.verbs.TrytoMakeSydailyFoxWarningEffect.label>
+</LanguageData>

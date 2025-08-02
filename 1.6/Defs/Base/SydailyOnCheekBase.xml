@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <HediffDef Name="SydailyOnCheekBase" Abstract="True">
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.70, 0.52, 1.00)</defaultLabelColor>
+    <isBad>false</isBad>
+    <stages>
+      <li>
+        <becomeVisible>true</becomeVisible>
+        <!-- Visible -->
+        <painFactor>1</painFactor>
+        <capMods>
+          <li>
+            <capacity>Hearing</capacity>
+            <!-- Sydaily -->
+            <offset>1.2</offset>
+          </li>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.6</offset>
+          </li>
+          <li>
+            <capacity>Talking</capacity>
+            <offset>1.2</offset>
+          </li>
+          <li>
+            <capacity>Breathing</capacity>
+            <offset>2.4</offset>
+          </li>
+          <li>
+            <capacity>Sight</capacity>
+            <offset>2.4</offset>
+          </li>
+          <li>
+            <capacity>BloodFiltration</capacity>
+            <!-- GENE -->
+            <offset>4.2</offset>
+          </li>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>4.2</offset>
+          </li>
+          <li>
+            <capacity>Metabolism</capacity>
+            <offset>4.2</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+    <comps>
+      <li Class="SydailyFox_Settingpack.ShowTheSydailyHediffEffect">
+        <!-- Death Effect -->
+        <mote>SydailyCrystalExplosion_Purple</mote>
+        <moteCount>1</moteCount>
+        <moteOffsetRange>0.85~1</moteOffsetRange>
+        <filth>AF_FI_Sydaily</filth>
+        <sound>AF_SO_SydailyCrystalExplosion</sound>
+      </li>
+    </comps>
+  </HediffDef>
+</Defs>

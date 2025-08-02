@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>AF_IN_StrangeCapsule</defName>
+    <label>胶囊舱</label>
+    <workerClass>SydailyFox_Settingpack.IncidentWorker_StrangeCapsule</workerClass>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <baseChance>0.08</baseChance>
+    <!-- Very Low -->
+    <!-- the description -->
+    <letterLabel>胶囊舱</letterLabel>
+    <letterText>一股令人不安的压抑感...</letterText>
+    <tale>MeteoriteImpact</tale>
+    <!-- Core -->
+  </IncidentDef>
+</Defs>

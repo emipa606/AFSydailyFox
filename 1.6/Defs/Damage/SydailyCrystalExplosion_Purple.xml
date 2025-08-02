@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef ParentName="AF_SydailyFlashDamageBase">
+    <defName>AF_DA_SydailyCrystalExplosion_Purple</defName>
+    <label>-</label>
+    <explosionCellMote>AF_SydailyFlash_Purple</explosionCellMote>
+    <!-- Sydaily Explosion -->
+    <soundExplosion>FoxDeath</soundExplosion>
+    <!--  <preExplosionSpawnThingDef>Filth_Blood</preExplosionSpawnThingDef>
+      <preExplosionSpawnChance>4.2</preExplosionSpawnChance>-->
+    <minDamageToFragment>5</minDamageToFragment>
+    <defaultDamage>25200</defaultDamage>
+    <defaultStoppingPower>255</defaultStoppingPower>
+    <defaultArmorPenetration>255</defaultArmorPenetration>
+    <buildingDamageFactor>0</buildingDamageFactor>
+    <plantDamageFactor>0</plantDamageFactor>
+  </DamageDef>
+  <DamageDef ParentName="AF_SydailyFlashDamageBase">
+    <defName>AF_DA_SydailyCrystalExplosion_PurpleWithMoteNOTG</defName>
+    <label>-</label>
+    <explosionCellMote>AF_Mote_NOTG</explosionCellMote>
+    <!-- Sydaily Explosion -->
+    <soundExplosion>AF_SO_SUSSB_Stop</soundExplosion>
+    <minDamageToFragment>5</minDamageToFragment>
+    <defaultDamage>25200</defaultDamage>
+    <defaultStoppingPower>255</defaultStoppingPower>
+    <defaultArmorPenetration>255</defaultArmorPenetration>
+    <buildingDamageFactor>0</buildingDamageFactor>
+    <plantDamageFactor>0</plantDamageFactor>
+  </DamageDef>
+</Defs>

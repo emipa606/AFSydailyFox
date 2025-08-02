@@ -7,14 +7,14 @@ namespace SydailyFox_Settingpack;
 
 public class ShowTheSydailyHediffEffect : HediffCompProperties
 {
-    public readonly int filthCount = 4;
+    private readonly int filthCount = 4;
 
-    public readonly int moteCount = 3;
+    private readonly int moteCount = 3;
     public ThingDef filth;
 
     public ThingDef mote;
 
-    public FloatRange moteOffsetRange = new FloatRange(0.2f, 0.4f);
+    private FloatRange moteOffsetRange = new FloatRange(0.2f, 0.4f);
 
     public SoundDef sound;
 
@@ -23,9 +23,9 @@ public class ShowTheSydailyHediffEffect : HediffCompProperties
         compClass = typeof(PlaySydailyHediffPost);
     }
 
-    public class PlaySydailyHediffPost : HediffComp
+    private class PlaySydailyHediffPost : HediffComp
     {
-        public ShowTheSydailyHediffEffect Props => (ShowTheSydailyHediffEffect)props;
+        private ShowTheSydailyHediffEffect Props => (ShowTheSydailyHediffEffect)props;
 
         public override void Notify_PawnKilled()
         {

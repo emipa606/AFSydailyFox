@@ -9,7 +9,7 @@ public class InteractionWorker_SydailyFoxNuzzle : InteractionWorker
     public override void Interacted(Pawn initiator, Pawn recipient, List<RulePackDef> extraSentencePacks,
         out string letterText, out string letterLabel, out LetterDef letterDef, out LookTargets lookTargets)
     {
-        AddNuzzledThought(recipient);
+        addNuzzledThought(recipient);
         //TryGiveName(initiator, recipient);
         letterText = null;
         letterLabel = null;
@@ -17,7 +17,7 @@ public class InteractionWorker_SydailyFoxNuzzle : InteractionWorker
         lookTargets = null;
     }
 
-    private void AddNuzzledThought(Pawn recipient)
+    private static void addNuzzledThought(Pawn recipient)
     {
         var newThought = (Thought_Memory)ThoughtMaker.MakeThought(ThoughtDef.Named("SydailyFoxNuzzleThought"));
         recipient.needs.mood.thoughts.memories.TryGainMemory(newThought);

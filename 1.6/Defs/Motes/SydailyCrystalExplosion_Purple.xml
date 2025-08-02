@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>SydailyCrystalExplosion_Purple</defName>
+    <graphicData>
+      <texPath>Motes/SydailyCrystalExplosion_Purple</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>8.2</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.42</fadeInTime>
+      <solidTime>42.24</solidTime>
+      <fadeOutTime>28.2</fadeOutTime>
+      <growthRate>0.012</growthRate>
+    </mote>
+  </ThingDef>
+</Defs>

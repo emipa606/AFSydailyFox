@@ -46,31 +46,17 @@ public static class ARA_AttackTargetFinder
         {
             var thing = t.Thing;
             bool result2;
-            if (t == searcher)
-            {
-                result2 = false;
-            }
-            else if (minDistanceSquared > 0f &&
-                     (searcherThing.Position - thing.Position).LengthHorizontalSquared < minDistanceSquared)
-            {
-                result2 = false;
-            }
-            else if (maxTravelRadiusFromLocus < 9999f &&
-                     (thing.Position - locus).LengthHorizontalSquared > maxLocusDistSquared)
-            {
-                result2 = false;
-            }
-            else if (!searcherThing.HostileTo(thing))
-            {
-                result2 = false;
-            }
-            else if (validator != null && !validator(thing))
+            if (t == searcher || minDistanceSquared > 0f &&
+                (searcherThing.Position - thing.Position).LengthHorizontalSquared < minDistanceSquared ||
+                maxTravelRadiusFromLocus < 9999f &&
+                (thing.Position - locus).LengthHorizontalSquared > maxLocusDistSquared ||
+                !searcherThing.HostileTo(thing) || validator != null && !validator(thing))
             {
                 result2 = false;
             }
             else
             {
-                if ((flags & TargetScanFlags.NeedLOSToAll) != 0 && !searcherThing.CanSee(thing, losValidator))
+                if ((flags & TargetScanFlags.NeedLOSToAll) != 0 && !searcherThing.canSee(thing, losValidator))
                 {
                     if (t is Pawn)
                     {
@@ -85,66 +71,57 @@ public static class ARA_AttackTargetFinder
                     }
                 }
 
-                if ((flags & TargetScanFlags.NeedThreat) != 0 && t.ThreatDisabled(searcher))
+                if ((flags & TargetScanFlags.NeedThreat) != 0 && t.ThreatDisabled(searcher) ||
+                    onlyTargetMachines && t is Pawn pawn2 && pawn2.RaceProps.IsFlesh ||
+                    (flags & TargetScanFlags.NeedNonBurning) != 0 && thing.IsBurning())
                 {
                     result2 = false;
                 }
                 else
                 {
-                    if (onlyTargetMachines && t is Pawn pawn2 && pawn2.RaceProps.IsFlesh)
+                    if (searcherThing.def.race != null && (int)searcherThing.def.race.intelligence >= 2)
                     {
-                        result2 = false;
+                        var compExplosive = thing.TryGetComp<CompExplosive>();
+                        if (compExplosive is { wickStarted: true })
+                        {
+                            return false;
+                        }
                     }
-                    else if ((flags & TargetScanFlags.NeedNonBurning) != 0 && thing.IsBurning())
+
+                    if (thing.def.size is { x: 1, z: 1 })
                     {
-                        result2 = false;
+                        if (thing.Position.Fogged(thing.Map))
+                        {
+                            return false;
+                        }
                     }
                     else
                     {
-                        if (searcherThing.def.race != null && (int)searcherThing.def.race.intelligence >= 2)
+                        var visible = false;
+                        foreach (var intVec3 in thing.OccupiedRect())
                         {
-                            var compExplosive = thing.TryGetComp<CompExplosive>();
-                            if (compExplosive is { wickStarted: true })
+                            if (intVec3.Fogged(thing.Map))
                             {
-                                return false;
+                                continue;
                             }
+
+                            visible = true;
+                            break;
                         }
 
-                        if (thing.def.size is { x: 1, z: 1 })
+                        if (!visible)
                         {
-                            if (thing.Position.Fogged(thing.Map))
-                            {
-                                return false;
-                            }
+                            return false;
                         }
-                        else
-                        {
-                            var visible = false;
-                            foreach (var intVec3 in thing.OccupiedRect())
-                            {
-                                if (intVec3.Fogged(thing.Map))
-                                {
-                                    continue;
-                                }
-
-                                visible = true;
-                                break;
-                            }
-
-                            if (!visible)
-                            {
-                                return false;
-                            }
-                        }
-
-                        result2 = true;
                     }
+
+                    result2 = true;
                 }
             }
 
             return result2;
         };
-        if (!HasRangedAttack(searcher))
+        if (!hasRangedAttack(searcher))
         {
             return null;
         }
@@ -161,7 +138,7 @@ public static class ARA_AttackTargetFinder
         if ((flags & TargetScanFlags.NeedReachable) > TargetScanFlags.None)
         {
             var oldValidator = innerValidator;
-            innerValidator = t => oldValidator(t) && CanReach(searcherThing, t.Thing, canBash);
+            innerValidator = t => oldValidator(t) && canReach(searcherThing, t.Thing, canBash);
         }
 
         var validTarget = false;
@@ -170,7 +147,7 @@ public static class ARA_AttackTargetFinder
             foreach (var attackTarget in tmpTargets)
             {
                 if (!attackTarget.Thing.Position.InHorDistOf(searcherThing.Position, maxDist) ||
-                    !innerValidator(attackTarget) || !CanShootAtFromCurrentPosition(attackTarget, searcher, verb))
+                    !innerValidator(attackTarget) || !canShootAtFromCurrentPosition(attackTarget, searcher, verb))
                 {
                     continue;
                 }
@@ -185,7 +162,7 @@ public static class ARA_AttackTargetFinder
         {
             tmpTargets.RemoveAll(x =>
                 !x.Thing.Position.InHorDistOf(searcherThing.Position, maxDist) || !innerValidator(x));
-            result = GetRandomShootingTargetByScore(tmpTargets, searcher, verb);
+            result = getRandomShootingTargetByScore(tmpTargets, searcher, verb);
         }
         else
         {
@@ -193,8 +170,8 @@ public static class ARA_AttackTargetFinder
                 validator: (flags & TargetScanFlags.NeedReachableIfCantHitFromMyPos) == 0 ||
                            (flags & TargetScanFlags.NeedReachable) != 0
                     ? t => innerValidator((IAttackTarget)t)
-                    : t => innerValidator((IAttackTarget)t) && (CanReach(searcherThing, t, canBash) ||
-                                                                CanShootAtFromCurrentPosition((IAttackTarget)t,
+                    : t => innerValidator((IAttackTarget)t) && (canReach(searcherThing, t, canBash) ||
+                                                                canShootAtFromCurrentPosition((IAttackTarget)t,
                                                                     searcher, verb)),
                 center: searcherThing.Position, searchSet: tmpTargets, maxDistance: maxDist);
         }
@@ -203,7 +180,7 @@ public static class ARA_AttackTargetFinder
         return result;
     }
 
-    private static bool CanReach(Thing searcher, Thing target, bool canBash)
+    private static bool canReach(Thing searcher, Thing target, bool canBash)
     {
         if (searcher is Pawn pawn)
         {
@@ -225,27 +202,27 @@ public static class ARA_AttackTargetFinder
         return true;
     }
 
-    private static bool HasRangedAttack(IAttackTargetSearcher t)
+    private static bool hasRangedAttack(IAttackTargetSearcher t)
     {
         var currentEffectiveVerb = t.CurrentEffectiveVerb;
         return currentEffectiveVerb != null && !currentEffectiveVerb.verbProps.IsMeleeAttack;
     }
 
-    private static bool CanShootAtFromCurrentPosition(IAttackTarget target, IAttackTargetSearcher searcher, Verb verb)
+    private static bool canShootAtFromCurrentPosition(IAttackTarget target, IAttackTargetSearcher searcher, Verb verb)
     {
         return verb?.CanHitTargetFrom(searcher.Thing.Position, target.Thing) ?? false;
     }
 
-    private static IAttackTarget GetRandomShootingTargetByScore(List<IAttackTarget> targets,
+    private static IAttackTarget getRandomShootingTargetByScore(List<IAttackTarget> targets,
         IAttackTargetSearcher searcher, Verb verb)
     {
-        return GetAvailableShootingTargetsByScore(targets, searcher, verb)
+        return getAvailableShootingTargetsByScore(targets, searcher, verb)
             .TryRandomElementByWeight(x => x.Second, out var result)
             ? result.First
             : null;
     }
 
-    private static List<Pair<IAttackTarget, float>> GetAvailableShootingTargetsByScore(List<IAttackTarget> rawTargets,
+    private static List<Pair<IAttackTarget, float>> getAvailableShootingTargetsByScore(List<IAttackTarget> rawTargets,
         IAttackTargetSearcher searcher, Verb verb)
     {
         availableShootingTargets.Clear();
@@ -267,13 +244,13 @@ public static class ARA_AttackTargetFinder
                 continue;
             }
 
-            tmpCanShootAtTarget[i] = CanShootAtFromCurrentPosition(rawTargets[i], searcher, verb);
+            tmpCanShootAtTarget[i] = canShootAtFromCurrentPosition(rawTargets[i], searcher, verb);
             if (!tmpCanShootAtTarget[i])
             {
                 continue;
             }
 
-            var shootingTargetScore = GetShootingTargetScore(rawTargets[i], searcher, verb);
+            var shootingTargetScore = getShootingTargetScore(rawTargets[i], searcher, verb);
             tmpTargetScores[i] = shootingTargetScore;
             if (attackTarget != null && !(shootingTargetScore > num))
             {
@@ -315,7 +292,7 @@ public static class ARA_AttackTargetFinder
         return availableShootingTargets;
     }
 
-    private static float GetShootingTargetScore(IAttackTarget target, IAttackTargetSearcher searcher, Verb verb)
+    private static float getShootingTargetScore(IAttackTarget target, IAttackTargetSearcher searcher, Verb verb)
     {
         var num = 60f;
         num -= Mathf.Min((target.Thing.Position - searcher.Thing.Position).LengthHorizontal, 40f);
@@ -337,10 +314,10 @@ public static class ARA_AttackTargetFinder
             num -= 50f;
         }
 
-        return num + FriendlyFireShootingTargetScoreOffset(target, searcher, verb);
+        return num + friendlyFireShootingTargetScoreOffset(target, searcher, verb);
     }
 
-    private static float FriendlyFireShootingTargetScoreOffset(IAttackTarget target, IAttackTargetSearcher searcher,
+    private static float friendlyFireShootingTargetScoreOffset(IAttackTarget target, IAttackTargetSearcher searcher,
         Verb verb)
     {
         if (verb.verbProps.ai_AvoidFriendlyFireRadius <= 0f)
@@ -395,7 +372,7 @@ public static class ARA_AttackTargetFinder
         return BestAttackTarget(searcher, flags, validator, minDistance, maxDistance);
     }
 
-    public static bool CanSee(this Thing seer, Thing target, Func<IntVec3, bool> validator = null)
+    private static bool canSee(this Thing seer, Thing target, Func<IntVec3, bool> validator = null)
     {
         ShootLeanUtility.CalcShootableCellsOf(tempDestList, target, seer.Position);
         foreach (var intVec3 in tempDestList)

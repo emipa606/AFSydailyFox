@@ -1,0 +1,88 @@
+ManifestFileVersion: 0
+CRC: 1424052289
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e4c17cbec72a908251c394a008ac2479
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: e4c17cbec72a908251c394a008ac2479
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.AFSydailyFox/Textures/Effects/SydailyFlash_Purple.PNG
+- Assets/Data/Mlie.AFSydailyFox/Textures/InComing/IC_StrangeCapsule.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/NOTG.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_Tiny_east.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_Tiny_south.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Interactions/HEOOW.PNG
+- Assets/Data/Mlie.AFSydailyFox/Textures/Interactions/FoxLamp.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/SydailyBomb/SydailyBomb_Final.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/BambooShootLamp/BambooShootLamp_west.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/BambooShootLamp/BambooShootLamp_south.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Goods/SydailyVine_Tiny.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/SydailyBomb/SydailyBomb_Flash.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Fox/SydailyFoxPack_east.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Fox/SydailyFox_south.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Goods/FerianWool/FerianWool_a.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/SydailyFlower.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_south.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Thankyou/UI_Sydaily_Fox.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Interactions/Hewwo.PNG
+- Assets/Data/Mlie.AFSydailyFox/Textures/Motes/BloodFog.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Card/AF_SO_Card_Drop.ogg
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_Tiny_west.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Motes/AF_FI_Sydaily/AF_FI_Sydaily.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/BambooShootLamp/BambooShootLamp_east.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Goods/FerianWool/FerianWool_c.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Buildings/FailedExperiments.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Motes/SydailyCrystalExplosion_Purple.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/UI/UI_theFurLight_Normal.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Thankyou/Sydaily_Fox.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_east.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/UI/UI_BambooShootLamp.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_north.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/NOTG.mp3
+- Assets/Data/Mlie.AFSydailyFox/Textures/Motes/SydailyFlash_Purple.PNG
+- Assets/Data/Mlie.AFSydailyFox/Textures/Effects/SydailyFox_SydailyFlash.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/BambooShootLamp/BambooShootLamp_north.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Thankyou/UI_Lansy.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Fox/SydailyFox_east.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Fox/FoxDeath.ogg
+- Assets/Data/Mlie.AFSydailyFox/Sounds/SydailyBomb/SydailyBomb_Active.ogg
+- Assets/Data/Mlie.AFSydailyFox/Textures/Goods/FerianWool/FerianWool_b.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Signs/BaseSign.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Card/AF_SO_Card_Pickup.ogg
+- Assets/Data/Mlie.AFSydailyFox/Textures/Thankyou/Sydaily_Foxm.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/SydailyBomb/SydailyBomb_BombEffect.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/BloodFog/BloodWind.ogg
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Fox/FoxWounded.ogg
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Goods/AF_SO_Goods.ogg
+- Assets/Data/Mlie.AFSydailyFox/Sounds/SydailyBomb/SydailyBomb_RideUp.ogg
+- Assets/Data/Mlie.AFSydailyFox/Textures/Fox/SydailyFox_north.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Buildings/StrangeCapsule.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/UI/UI_theFurLight_Tiny.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/UI/UI_theFurLight.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Signs/SydailyFox_Warning.PNG
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_Tiny_north.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Fox/SydailyFoxPack_south.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Fox/FoxAngry.ogg
+- Assets/Data/Mlie.AFSydailyFox/Sounds/BloodFog/HersSaying.ogg
+- Assets/Data/Mlie.AFSydailyFox/Textures/Fox/SydailyFoxPack_north.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/theFurLight_west.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/Interactions/Interaction_SydailyFoxNuzzle.png
+- Assets/Data/Mlie.AFSydailyFox/Textures/SydailyBomb/SydailyBomb_SpawnFlash.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Weapons/SydailyShoot_Tail.ogg
+- Assets/Data/Mlie.AFSydailyFox/Textures/Thankyou/Lansy.png
+- Assets/Data/Mlie.AFSydailyFox/Sounds/Sydaily/SydailyCrystalExplosion.ogg
+- Assets/Data/Mlie.AFSydailyFox/Textures/Thankyou/StatueBase.png
+Dependencies: []

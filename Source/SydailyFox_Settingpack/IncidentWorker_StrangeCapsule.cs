@@ -24,48 +24,49 @@ public class IncidentWorker_StrangeCapsule : IncidentWorker
         }
 
         var map = (Map)parms.target;
-        return TryFindShipChunkDropCell(map.Center, map, 999999, out _);
+        return tryFindShipChunkDropCell(map.Center, map, 999999, out _);
     }
 
     protected override bool TryExecuteWorker(IncidentParms parms)
     {
         var map = (Map)parms.target;
-        if (!TryFindShipChunkDropCell(map.Center, map, 999999, out var pos))
+        if (!tryFindShipChunkDropCell(map.Center, map, 999999, out var pos))
         {
             return false;
         }
 
-        SpawnShipChunks(pos, map, get_RandomCountToDrop());
+        spawnShipChunks(pos, map, get_RandomCountToDrop());
         var threatBig = LetterDefOf.ThreatBig;
         var text = string.Format(def.letterText).CapitalizeFirst();
         SendStandardLetter(def.LabelCap, text, threatBig, parms, new TargetInfo(pos, map));
         return true;
     }
 
-    private void SpawnShipChunks(IntVec3 firstChunkPos, Map map, int count)
+    private static void spawnShipChunks(IntVec3 firstChunkPos, Map map, int count)
     {
-        SpawnChunk(firstChunkPos, map);
+        spawnChunk(firstChunkPos, map);
         for (var i = 0; i < count - 1; i++)
         {
-            if (TryFindShipChunkDropCell(firstChunkPos, map, 5, out var pos))
+            if (tryFindShipChunkDropCell(firstChunkPos, map, 5, out var pos))
             {
-                SpawnChunk(pos, map);
+                spawnChunk(pos, map);
             }
         }
     }
 
-    private void SpawnChunk(IntVec3 pos, Map map)
+    private static void spawnChunk(IntVec3 pos, Map map)
     {
         SkyfallerMaker.SpawnSkyfaller(DFFerian_Thing.AF_IC_StrangeCapsule, DFFerian_Thing.AF_StrangeCapsule, pos, map);
     }
 
-    private bool TryFindShipChunkDropCell(IntVec3 nearLoc, Map map, int maxDist, out IntVec3 pos)
+    private static bool tryFindShipChunkDropCell(IntVec3 nearLoc, Map map, int maxDist, out IntVec3 pos)
     {
-        return CellFinderLoose.TryFindSkyfallerCell(DFFerian_Thing.AF_IC_StrangeCapsule, map, out pos, 10, nearLoc,
+        return CellFinderLoose.TryFindSkyfallerCell(DFFerian_Thing.AF_IC_StrangeCapsule, map,
+            TerrainAffordanceDefOf.Walkable, out pos, 10, nearLoc,
             maxDist);
     }
 
-    private int get_RandomCountToDrop()
+    private static int get_RandomCountToDrop()
     {
         var x2 = Find.TickManager.TicksGame / 3600000f;
         var timePassedFactor = Mathf.Clamp(GenMath.LerpDouble(0f, 1.2f, 1f, 0.1f, x2), 0.1f, 1f);

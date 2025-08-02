@@ -5,9 +5,9 @@ namespace SydailyFox_Settingpack;
 
 public class Attack_SydailyFox : ThingComp
 {
-    public int age = -1;
+    private int age = -1;
 
-    public Attack_SydailyFox_ON Props => (Attack_SydailyFox_ON)props;
+    private Attack_SydailyFox_ON Props => (Attack_SydailyFox_ON)props;
 
     public override void PostExposeData()
     {

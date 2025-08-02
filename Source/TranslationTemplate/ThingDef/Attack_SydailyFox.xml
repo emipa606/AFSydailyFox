@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: <color=#b487ff>斯黛莉晶雷</color> -->
+  <Attack_SydailyFox.label>&lt;color=#b487ff>斯黛莉晶雷&lt;/color></Attack_SydailyFox.label>
+  <!-- EN: 你个肮脏的黑客！ -->
+  <Attack_SydailyFox.description>你个肮脏的黑客！</Attack_SydailyFox.description>
+  <!-- EN: 【<color=#b487ff>Attack</color>】 -->
+  <Attack_SydailyFox_description.label>【&lt;color=#b487ff>Attack&lt;/color>】</Attack_SydailyFox_description.label>
+  <!-- EN: 斯黛莉晶狐可以在【非密闭空间】内召唤某种能量体来保护自己。\n	\n若存在其他生物指引，其范围可以覆盖至世界上每一个角落。\n	\n\n现在一起数：\n	\n-1,\n	\n- - -2,\n	\n- - -3. -->
+  <Attack_SydailyFox_description.description>斯黛莉晶狐可以在【非密闭空间】内召唤某种能量体来保护自己。
+	
+若存在其他生物指引，其范围可以覆盖至世界上每一个角落。
+	
+
+现在一起数：
+	
+-1,
+	
+---2,
+	
+-----3.</Attack_SydailyFox_description.description>
+</LanguageData>

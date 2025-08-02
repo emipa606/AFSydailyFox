@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 冰冰凉的亲昵 -->
+  <InteractionThatSydailyFoxNuzzle.label>冰冰凉的亲昵</InteractionThatSydailyFoxNuzzle.label>
+  <!-- EN: r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef]. -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.0>
+  <!-- EN: r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart]. -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.1>
+  <!-- EN: nuzzled(p=2)->psionically nuzzled -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>nuzzled(p=2)->psionically nuzzled</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.2>
+  <!-- EN: nuzzled->psionically snuggled up to -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>nuzzled->psionically snuggled up to</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.3>
+  <!-- EN: nuzzleadverb(p=4)-> -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>nuzzleadverb(p=4)-></InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.4>
+  <!-- EN: nuzzleadverb->gently -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>nuzzleadverb->gently</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.5>
+  <!-- EN: nuzzleadverb->encouragingly -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>nuzzleadverb->encouragingly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.6>
+  <!-- EN: nuzzleadverb->happily -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>nuzzleadverb->happily</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.7>
+  <!-- EN: nuzzleadverb->softly -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>nuzzleadverb->softly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.8>
+  <!-- EN: nuzzleadverb->supportively -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>nuzzleadverb->supportively</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.9>
+  <!-- EN: nuzzleadverb->lightly -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>nuzzleadverb->lightly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.10>
+  <!-- EN: nuzzleadverb->warmly -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>nuzzleadverb->warmly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.11>
+  <!-- EN: nuzzleadverb->plaintively -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>nuzzleadverb->plaintively</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.12>
+  <!-- EN: nuzzleadverb->lovingly -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>nuzzleadverb->lovingly</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.13>
+  <!-- EN: nuzzleadverb->affectionately -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>nuzzleadverb->affectionately</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.14>
+  <!-- EN: rubbedpart->leg -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>rubbedpart->leg</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.15>
+  <!-- EN: rubbedpart->knee -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>rubbedpart->knee</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.16>
+  <!-- EN: rubbedpart->foot -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>rubbedpart->foot</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.17>
+  <!-- EN: rubbedpart->elbow -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>rubbedpart->elbow</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.18>
+  <!-- EN: rubbedpart->hip -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>rubbedpart->hip</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.19>
+  <!-- EN: rubbedpart->shoulder -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>rubbedpart->shoulder</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.20>
+  <!-- EN: rubbedpart->hand -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>rubbedpart->hand</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.21>
+  <!-- EN: rubbedpart->side -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>rubbedpart->side</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.22>
+  <!-- EN: rubbedpart->arm -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>rubbedpart->arm</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.23>
+  <!-- EN: rubbedpart(p=2)->genitals -->
+  <InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>rubbedpart(p=2)->genitals</InteractionThatSydailyFoxNuzzle.logRulesInitiator.rulesStrings.24>
+</LanguageData>
