@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="AF_NaturalBuildingBase">
     <defName>AF_FailedExperiments</defName>
-    <label>&lt;color=#7f0000&gt;诡异，肉&lt;/color&gt;</label>
+    <label>&lt;color=#7f0000>诡异，肉&lt;/color></label>
     <!-- Force -->
     <description>一大坨令人作呕的肉块，它正在发出一种恐怖至极的心灵冲击波！
 		\n\n这些肉泥可以吸收刀剑和子弹的伤害，用【炸药】摧毁它！</description>

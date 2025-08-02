@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <Attack_SydailyFox.label>&lt;color=#b487ff&gt;Sydaily Crystal Bomb&lt;/color&gt;</Attack_SydailyFox.label>
+  <Attack_SydailyFox.label>&lt;color=#b487ff>Sydaily Crystal Bomb&lt;/color></Attack_SydailyFox.label>
   <Attack_SydailyFox.description>YOU DIRTY HACKER!</Attack_SydailyFox.description>
-  <Attack_SydailyFox_description.label>【&lt;color=#b487ff&gt;Attack&lt;/color&gt;】</Attack_SydailyFox_description.label>
+  <Attack_SydailyFox_description.label>【&lt;color=#b487ff>Attack&lt;/color>】</Attack_SydailyFox_description.label>
   <Attack_SydailyFox_description.description>SydailyFox can summon an Energy Bomb to defend itself in an【Open Environment】.
 	\nIf someone trained and mentored SydailyFox, the "Attack" could cover All over the world.
 	\n\nNow We Count:

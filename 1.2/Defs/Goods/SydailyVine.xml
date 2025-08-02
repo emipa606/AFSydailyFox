@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="VineGoodsBase">
     <defName>SydailyVine_Tiny_SydailyFox</defName>
@@ -21,7 +21,7 @@
     <comps>
       <li Class="CompProperties_Usable">
         <useJob>UseItem</useJob>
-        <useLabel>\n&lt;color=#fbef97&gt;既然它是从狐狸耳朵里长出来的...&lt;/color&gt;</useLabel>
+        <useLabel>\n&lt;color=#fbef97>既然它是从狐狸耳朵里长出来的...&lt;/color></useLabel>
         <useDuration>42</useDuration>
       </li>
       <li Class="CompProperties_UseEffect">

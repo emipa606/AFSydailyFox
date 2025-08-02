@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="AF_NaturalBuildingBase">
     <defName>Attack_SydailyFox</defName>
-    <label>&lt;color=#b487ff&gt;斯黛莉晶雷&lt;/color&gt;</label>
+    <label>&lt;color=#b487ff>斯黛莉晶雷&lt;/color></label>
     <description>你个肮脏的黑客！</description>
     <thingClass>Building</thingClass>
     <size>(1,1)</size>
@@ -182,7 +182,7 @@
   </ThingDef>
   <ThingDef ParentName="AF_NaturalBuildingBase">
     <defName>Attack_SydailyFox_description</defName>
-    <label>【&lt;color=#b487ff&gt;Attack&lt;/color&gt;】</label>
+    <label>【&lt;color=#b487ff>Attack&lt;/color>】</label>
     <description>斯黛莉晶狐可以在【非密闭空间】内召唤某种能量体来保护自己。
 	\n若存在其他生物指引，其范围可以覆盖至世界上每一个角落。
 	\n\n现在一起数：

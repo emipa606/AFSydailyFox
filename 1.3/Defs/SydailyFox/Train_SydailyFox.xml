@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- Advanced -->
   <TrainabilityDef>
     <defName>Train_SydailyFox</defName>
-    <label>&lt;color=#b487ff&gt;高级&lt;/color&gt;</label>
+    <label>&lt;color=#b487ff>高级&lt;/color></label>
     <intelligenceOrder>42</intelligenceOrder>
   </TrainabilityDef>
 </Defs>

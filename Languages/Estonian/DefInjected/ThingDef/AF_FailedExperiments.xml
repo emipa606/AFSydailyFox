@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <AF_FailedExperiments.label>&lt;color=#7f0000&gt;bizarre,MEAT&lt;/color&gt;</AF_FailedExperiments.label>
+  <AF_FailedExperiments.label>&lt;color=#7f0000>bizarre,MEAT&lt;/color></AF_FailedExperiments.label>
   <AF_FailedExperiments.description>A huge, disgusting lump of meat, it's emitting a Stronge Psychic Drone of horror and blood!
 		\n\nThese bloodmud can absorb the damage of swords and bullets. Destroy it with 【dynamite】!</AF_FailedExperiments.description>
 </LanguageData>

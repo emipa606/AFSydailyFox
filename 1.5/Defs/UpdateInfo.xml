@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<TabulaRasa.UpdateDef Abstract="true" Name="AFSydailyFox_UpdateInfoBase">
+		<linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2817403346</linkUrl>
+		<banner>UpdateInfo/AFSydailyFox</banner>
+	</TabulaRasa.UpdateDef>
+	<TabulaRasa.UpdateDef ParentName="AFSydailyFox_UpdateInfoBase" MayRequire="neronix17.toolbox">
+		<defName>AFSydailyFox_1_5_1</defName>
+		<date>2025/8/2</date>
+		<content>This mod has been re-released for the new version of the game. This version will remain but will not be updated further.</content>
+	</TabulaRasa.UpdateDef>
+</Defs>
+

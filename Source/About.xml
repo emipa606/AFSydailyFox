@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>【AF】SydailyFox</name>
   <author>Amlifurx</author>
@@ -16,12 +16,12 @@
     </li>
   </modDependencies>
   <description>Add a
-\n       &lt;color=#fbef97&gt;Cute&lt;/color&gt;!
-\n                 &lt;color=#fbef97&gt;Sydaily&lt;/color&gt;!
-\n                            &lt;color=#fbef97&gt;FOXXXXXXXX&lt;/color&gt;!
+\n       &lt;color=#fbef97>Cute&lt;/color>!
+\n                 &lt;color=#fbef97>Sydaily&lt;/color>!
+\n                            &lt;color=#fbef97>FOXXXXXXXX&lt;/color>!
 \n 【You can find them in the boreal ecosystem~】
 \n\nAnd One Special Even!
-\n\n                                         Enjoy~&lt;color=#fbef97&gt;UwU&lt;/color&gt;
+\n\n                                         Enjoy~&lt;color=#fbef97>UwU&lt;/color>
 </description>
   <loadBefore>
   </loadBefore>

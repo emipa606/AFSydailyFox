@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <ThingDef ParentName="SkyfallerBase">
     <defName>AF_IC_StrangeCapsule</defName>
-    <label>&lt;color=#7f0000&gt;胶囊舱&lt;/color&gt;</label>
+    <label>&lt;color=#7f0000>胶囊舱&lt;/color></label>
     <size>(1, 1)</size>
     <graphicData>
       <texPath>InComing/IC_StrangeCapsule</texPath>

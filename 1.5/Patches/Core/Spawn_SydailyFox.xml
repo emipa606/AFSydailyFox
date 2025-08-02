@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- 生态群落，寒冷 value=0.0142 -->
   <Operation Class="PatchOperationAdd">

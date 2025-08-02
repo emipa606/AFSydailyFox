@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <BloodFog_Thought_A.stages.0.label>&lt;color=#7f0000&gt;strange capsule&lt;/color&gt;</BloodFog_Thought_A.stages.0.label>
+  <BloodFog_Thought_A.stages.0.label>&lt;color=#7f0000>strange capsule&lt;/color></BloodFog_Thought_A.stages.0.label>
   <BloodFog_Thought_A.stages.0.description>I felt a kind of indescribable coldness...
 			\n\nThis is horrible...</BloodFog_Thought_A.stages.0.description>
-  <BloodFog_Thought_B.stages.0.label>&lt;color=#7f0000&gt;Psionic Crazy&lt;/color&gt;</BloodFog_Thought_B.stages.0.label>
+  <BloodFog_Thought_B.stages.0.label>&lt;color=#7f0000>Psionic Crazy&lt;/color></BloodFog_Thought_B.stages.0.label>
   <BloodFog_Thought_B.stages.0.description>MAKE, IT, DISAPPEAR! AAAAAAAAAAAAAAAAAH!!!!!!!</BloodFog_Thought_B.stages.0.description>
   <BloodFog_Thought_Ferian_A.stages.0.label>A familiar feeling</BloodFog_Thought_Ferian_A.stages.0.label>
   <BloodFog_Thought_Ferian_A.stages.0.description>Is that...</BloodFog_Thought_Ferian_A.stages.0.description>

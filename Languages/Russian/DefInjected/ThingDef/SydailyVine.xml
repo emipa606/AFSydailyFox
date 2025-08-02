@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <SydailyVine_Tiny_SydailyFox.label>SydailyVine</SydailyVine_Tiny_SydailyFox.label>
   <SydailyVine_Tiny_SydailyFox.description>It's a weird plant that grew out of the Fox's ear.
 	\n\nThe vine escaped from the Fox was rotting fast.
 	\n\n（Its taste is unacceptable to most races.）</SydailyVine_Tiny_SydailyFox.description>
-  <SydailyVine_Tiny_SydailyFox.comps.3.useLabel>\n&lt;color=#fbef97&gt;Since it grew out of the Fox's ear...&lt;/color&gt;</SydailyVine_Tiny_SydailyFox.comps.3.useLabel>
+  <SydailyVine_Tiny_SydailyFox.comps.3.useLabel>\n&lt;color=#fbef97>Since it grew out of the Fox's ear...&lt;/color></SydailyVine_Tiny_SydailyFox.comps.3.useLabel>
 </LanguageData>

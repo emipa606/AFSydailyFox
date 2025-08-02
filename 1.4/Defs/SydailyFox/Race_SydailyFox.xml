@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
   <ThingDef ParentName="AnimalThingBase">
     <defName>SydailyFox</defName>
     <!-- SydailyFox -->
-    <label>&lt;color=#b487ff&gt;斯黛莉晶狐&lt;/color&gt;</label>
+    <label>&lt;color=#b487ff>斯黛莉晶狐&lt;/color></label>
     <description>奇怪的微粒穿透了墙壁，
 	\n夜色之下，那神秘的紫色光芒是多么的美丽。
 	\n\n它看起来像是一只吃胖了的赤狐，却又异常的温顺。
@@ -46,7 +46,7 @@
     <!-- Tools -->
     <tools>
       <li>
-        <label>&lt;color=#b487ff&gt;晶牙&lt;/color&gt;</label>
+        <label>&lt;color=#b487ff>晶牙&lt;/color></label>
         <!-- left claw -->
         <capacities>
           <li>Bite</li>

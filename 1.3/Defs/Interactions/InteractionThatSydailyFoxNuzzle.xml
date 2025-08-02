@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <InteractionDef>
     <defName>InteractionThatSydailyFoxNuzzle</defName>
@@ -8,31 +8,31 @@
     <symbol>Interactions/Interaction_SydailyFoxNuzzle</symbol>
     <logRulesInitiator>
       <rulesStrings>
-        <li>r_logentry(p=2)-&gt;[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
-        <li>r_logentry-&gt;[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
-        <li>nuzzled(p=2)-&gt;psionically nuzzled</li>
-        <li>nuzzled-&gt;psionically snuggled up to</li>
-        <li>nuzzleadverb(p=4)-&gt;</li>
-        <li>nuzzleadverb-&gt;gently</li>
-        <li>nuzzleadverb-&gt;encouragingly</li>
-        <li>nuzzleadverb-&gt;happily</li>
-        <li>nuzzleadverb-&gt;softly</li>
-        <li>nuzzleadverb-&gt;supportively</li>
-        <li>nuzzleadverb-&gt;lightly</li>
-        <li>nuzzleadverb-&gt;warmly</li>
-        <li>nuzzleadverb-&gt;plaintively</li>
-        <li>nuzzleadverb-&gt;lovingly</li>
-        <li>nuzzleadverb-&gt;affectionately</li>
-        <li>rubbedpart-&gt;leg</li>
-        <li>rubbedpart-&gt;knee</li>
-        <li>rubbedpart-&gt;foot</li>
-        <li>rubbedpart-&gt;elbow</li>
-        <li>rubbedpart-&gt;hip</li>
-        <li>rubbedpart-&gt;shoulder</li>
-        <li>rubbedpart-&gt;hand</li>
-        <li>rubbedpart-&gt;side</li>
-        <li>rubbedpart-&gt;arm</li>
-        <li>rubbedpart(p=2)-&gt;genitals</li>
+        <li>r_logentry(p=2)->[INITIATOR_nameDef] [nuzzleadverb] [nuzzled] [RECIPIENT_nameDef].</li>
+        <li>r_logentry->[INITIATOR_nameDef] [nuzzleadverb] rubbed [INITIATOR_possessive] nose against [RECIPIENT_nameDef]'s [rubbedpart].</li>
+        <li>nuzzled(p=2)->psionically nuzzled</li>
+        <li>nuzzled->psionically snuggled up to</li>
+        <li>nuzzleadverb(p=4)-></li>
+        <li>nuzzleadverb->gently</li>
+        <li>nuzzleadverb->encouragingly</li>
+        <li>nuzzleadverb->happily</li>
+        <li>nuzzleadverb->softly</li>
+        <li>nuzzleadverb->supportively</li>
+        <li>nuzzleadverb->lightly</li>
+        <li>nuzzleadverb->warmly</li>
+        <li>nuzzleadverb->plaintively</li>
+        <li>nuzzleadverb->lovingly</li>
+        <li>nuzzleadverb->affectionately</li>
+        <li>rubbedpart->leg</li>
+        <li>rubbedpart->knee</li>
+        <li>rubbedpart->foot</li>
+        <li>rubbedpart->elbow</li>
+        <li>rubbedpart->hip</li>
+        <li>rubbedpart->shoulder</li>
+        <li>rubbedpart->hand</li>
+        <li>rubbedpart->side</li>
+        <li>rubbedpart->arm</li>
+        <li>rubbedpart(p=2)->genitals</li>
       </rulesStrings>
     </logRulesInitiator>
   </InteractionDef>

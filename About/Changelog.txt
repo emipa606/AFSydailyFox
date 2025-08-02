@@ -1,5 +1,8 @@
 # Changelog for AFSydailyFox
 
+1.5.2 - Last update of the legacy version of the mod
+
+
 1.5.1 - Fixed the west-facing texture
 
 

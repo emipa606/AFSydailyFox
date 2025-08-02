@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-  <SydailyFox.label>&lt;color=#b487ff&gt;SydailyFox&lt;/color&gt;</SydailyFox.label>
+  <SydailyFox.label>&lt;color=#b487ff>SydailyFox&lt;/color></SydailyFox.label>
   <SydailyFox.description>Strange particles penetrate through the wall.
 	\nA mysterious purple glow is shining through the dark.
 	\n\nIt looks like a fat RedFox, but unusually docile.
@@ -8,7 +8,7 @@
 	\n\nClearly visible on each side of Fox's cheek is a purple crystal...
 	\nYou feel a little cold... And you try to touch it...
 	\nIt's getting colder... and colder......</SydailyFox.description>
-  <SydailyFox.tools.0.label>&lt;color=#b487ff&gt;CrystalTeeth&lt;/color&gt;</SydailyFox.tools.0.label>
+  <SydailyFox.tools.0.label>&lt;color=#b487ff>CrystalTeeth&lt;/color></SydailyFox.tools.0.label>
   <SydailyFox.tools.1.label>Left paw</SydailyFox.tools.1.label>
   <SydailyFox.tools.2.label>Right paw</SydailyFox.tools.2.label>
 </LanguageData>
