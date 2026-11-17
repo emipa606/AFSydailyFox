@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <DamageDef Name="AF_SydailyFlashDamageBase" Abstract="True">
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} 。</deathMessage>
+    <hediff>Frostbite</hediff>
+    <!-- Sydaily Explosion -->
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <minDamageToFragment>5</minDamageToFragment>
+    <defaultDamage>5</defaultDamage>
+    <defaultStoppingPower>255</defaultStoppingPower>
+    <defaultArmorPenetration>255</defaultArmorPenetration>
+    <buildingDamageFactor>0</buildingDamageFactor>
+    <plantDamageFactor>255</plantDamageFactor>
+  </DamageDef>
+</Defs>

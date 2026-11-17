@@ -7,4 +7,121 @@
   </Configurations>
   <Project Path="DragonsRangeUnlocker/DragonsRangeUnlocker.csproj" />
   <Project Path="SydailyFox_Settingpack/SydailyFox_Settingpack.csproj" />
+  <Folder Name="/XML/1.7/Defs/Thoughts/">
+    <File Path="../1.7/Defs/Thoughts/AF_TH_VineHigh.xml" />
+    <File Path="../1.7/Defs/Thoughts/BloodFog_Thought.xml" />
+    <File Path="../1.7/Defs/Thoughts/Lansy_Statue.xml" />
+    <File Path="../1.7/Defs/Thoughts/SydailyFox_Thought.xml" />
+    <File Path="../1.7/Defs/Thoughts/SydailyFoxNuzzleThought.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Base/ThingCategories/">
+    <File Path="../1.7/Defs/Base/ThingCategories/ThingCategories_A.xml" />
+    <File Path="../1.7/Defs/Base/ThingCategories/ThingCategories_B.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/Flickable.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Thoughts/PatchFerians/">
+    <File Path="../1.7/Defs/Thoughts/PatchFerians/BloodFog_Thought.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/A dog said/">
+    <File Path="../1.7/Patches/A dog said/AF_SydailyFox.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Hediffs/">
+    <File Path="../1.7/Defs/Hediffs/AF_HE_Vine.xml" />
+    <File Path="../1.7/Defs/Hediffs/SydailyIn.xml" />
+    <File Path="../1.7/Defs/Hediffs/SydailyOnCheek.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Sounds/">
+    <File Path="../1.7/Defs/Sounds/AF_Sound_NOTG.xml" />
+    <File Path="../1.7/Defs/Sounds/FoxSounds.xml" />
+    <File Path="../1.7/Defs/Sounds/GunShoot.xml" />
+    <File Path="../1.7/Defs/Sounds/PK_Card.xml" />
+    <File Path="../1.7/Defs/Sounds/Special.xml" />
+    <File Path="../1.7/Defs/Sounds/SUSBF.xml" />
+    <File Path="../1.7/Defs/Sounds/SUSSB.xml" />
+    <File Path="../1.7/Defs/Sounds/SydailyCrystalExplosion.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Motes/">
+    <File Path="../1.7/Defs/Motes/AF_FI_Sydaily.xml" />
+    <File Path="../1.7/Defs/Motes/AF_Mote_NOTG.xml" />
+    <File Path="../1.7/Defs/Motes/SydailyAttack.xml" />
+    <File Path="../1.7/Defs/Motes/SydailyCrystalExplosion_Purple.xml" />
+    <File Path="../1.7/Defs/Motes/SydailyFlash_Purple.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Interactions/">
+    <File Path="../1.7/Defs/Interactions/InteractionThatSydailyFoxNuzzle.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Goods/">
+    <File Path="../1.7/Defs/Goods/FerianWool.xml" />
+    <File Path="../1.7/Defs/Goods/SydailyVine.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Damage/">
+    <File Path="../1.7/Defs/Damage/StrangeCapsuleOpen.xml" />
+    <File Path="../1.7/Defs/Damage/SydailyBite.xml" />
+    <File Path="../1.7/Defs/Damage/SydailyCrystalAttack_Purple.xml" />
+    <File Path="../1.7/Defs/Damage/SydailyCrystalExplosion_Purple.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Joys/">
+    <File Path="../1.7/Defs/Joys/JoyKinds.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Jobs/">
+    <File Path="../1.7/Defs/Jobs/AnimalRangedJob.xml" />
+    <File Path="../1.7/Defs/Jobs/SydailyFoxNuzzleJob.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/InComing/">
+    <File Path="../1.7/Defs/InComing/AF_IC_StrangeCapsule.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Base/">
+    <File Path="../1.7/Defs/Base/AF_GoodsBase.xml" />
+    <File Path="../1.7/Defs/Base/AF_NaturalBuildingBase.xml" />
+    <File Path="../1.7/Defs/Base/AF_SpecialBuildingBase.xml" />
+    <File Path="../1.7/Defs/Base/AF_SydailyFlashDamageBase.xml" />
+    <File Path="../1.7/Defs/Base/SydailyOnCheekBase.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Incidents/">
+    <File Path="../1.7/Defs/Incidents/AF_IN_StrangeCapsule.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Effects/">
+    <File Path="../1.7/Defs/Effects/AF_Effect_Blood.xml" />
+    <File Path="../1.7/Defs/Effects/Effect_SydailyCrystalExplosion_Purple.xml" />
+    <File Path="../1.7/Defs/Effects/SydailyFlash_SydailyFox.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Buildings/">
+    <File Path="../1.7/Defs/Buildings/AF_FailedExperiments.xml" />
+    <File Path="../1.7/Defs/Buildings/AF_StrangeCapsule.xml" />
+    <File Path="../1.7/Defs/Buildings/AF_theFurLight_Normal.xml" />
+    <File Path="../1.7/Defs/Buildings/AF_theFurLight_Tiny.xml" />
+    <File Path="../1.7/Defs/Buildings/AF_theFurLight.xml" />
+    <File Path="../1.7/Defs/Buildings/BambooShootLamp.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/Core/">
+    <File Path="../1.7/Patches/Core/Spawn_SydailyFox.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Thankyou/">
+    <File Path="../1.7/Defs/Thankyou/Hello_Lansy.xml" />
+    <File Path="../1.7/Defs/Thankyou/Lansy_Statue.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/Ferian Story/">
+    <File Path="../1.7/Patches/Ferian Story/AF_SydailyFox.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SydailyFox/">
+    <File Path="../1.7/Defs/SydailyFox/Attack_SydailyFox.xml" />
+    <File Path="../1.7/Defs/SydailyFox/Ferian_Traits.xml" />
+    <File Path="../1.7/Defs/SydailyFox/Pawnkind_SydailyFox.xml" />
+    <File Path="../1.7/Defs/SydailyFox/Race_SydailyFox.xml" />
+    <File Path="../1.7/Defs/SydailyFox/Thinktree_SydailyFox.xml" />
+    <File Path="../1.7/Defs/SydailyFox/Train_SydailyFox.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Signs/">
+    <File Path="../1.7/Defs/Signs/BaseSign.xml" />
+    <File Path="../1.7/Defs/Signs/Sign_SydailyFoxAttack.xml" />
+    <File Path="../1.7/Defs/Signs/SydailyFox_Warning.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/">
+    <File Path="../1.7/Defs/AF_CITE.xml" />
+  </Folder>
 </Solution>

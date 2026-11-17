@@ -10,7 +10,7 @@ public class AF_PlaySpecialAnimation : ThingComp
 
     private int ticksSinceLastEmitted;
 
-    private Vector3 EmissionOffset => new Vector3(Rand.Range(Props.StartRange.x, Props.EndRange.x),
+    private Vector3 EmissionOffset => new(Rand.Range(Props.StartRange.x, Props.EndRange.x),
         Rand.Range(Props.StartRange.y, Props.EndRange.y), Rand.Range(Props.StartRange.z, Props.EndRange.z));
 
     private Color EmissionColor => Color.Lerp(Props.FirstColor, Props.SecondColor, Rand.Value);

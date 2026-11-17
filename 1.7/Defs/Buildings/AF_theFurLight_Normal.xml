@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AF_SpecialBuildingBase">
+    <defName>AF_theFurLight_Normal</defName>
+    <label>-</label>
+    <description>一盏很普通的灯具。可以用来加热空间，需要频繁地添加燃料。</description>
+    <thingClass>Building</thingClass>
+    <techLevel>Neolithic</techLevel>
+    <fillPercent>0</fillPercent>
+    <!-- PutOnTables -->
+    <pathCost>0</pathCost>
+    <clearBuildingArea>false</clearBuildingArea>
+    <graphicData>
+      <texPath>theFurLight</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(1.05,1.05)</drawSize>
+      <damageData>
+        <rect>(0.35,0.35,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
+    <passability>Standable</passability>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <rotatable>false</rotatable>
+    <constructEffect>ConstructMetal</constructEffect>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <WorkToBuild>2200</WorkToBuild>
+      <MarketValue>24</MarketValue>
+      <Beauty>12</Beauty>
+      <Mass>1.2</Mass>
+      <Flammability>0.8</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <WoodLog>40</WoodLog>
+    </costList>
+    <soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <placeWorkers>
+      <li>PlaceWorker_Heater</li>
+    </placeWorkers>
+    <comps>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>8.2</glowRadius>
+        <glowColor>(227,115,32,0)</glowColor>
+      </li>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>4.2</heatPerSecond>
+        <heatPushMaxTemperature>2000</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Flickable" />
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>3</fuelConsumptionRate>
+        <fuelCapacity>30</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>Hay</li>
+            <li>Chemfuel</li>
+            <li>WoodLog</li>
+          </thingDefs>
+        </fuelFilter>
+        <destroyOnNoFuel>false</destroyOnNoFuel>
+      </li>
+    </comps>
+    <thingCategories>
+      <li>BuildingsFurniture</li>
+      <li>AF_TC_RimFurry_Building</li>
+    </thingCategories>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <tradeability>Sellable</tradeability>
+    <designationCategory>AF_CITE</designationCategory>
+    <building>
+      <isEdifice>false</isEdifice>
+      <!-- PutOnTables -->
+    </building>
+    <uiIconPath>UI/UI_theFurLight_Normal</uiIconPath>
+    <!-- UI -->
+    <uiIconScale>1.52</uiIconScale>
+  </ThingDef>
+</Defs>

@@ -9,7 +9,6 @@ internal static class AnimalRangeAttack_Init
 {
     static AnimalRangeAttack_Init()
     {
-        var harmony = new Harmony("com.github.rimworld.mod.DragonAnimalRangeAttack");
-        harmony.PatchAll(Assembly.GetExecutingAssembly());
+        new Harmony("com.github.rimworld.mod.DragonAnimalRangeAttack").PatchAll(Assembly.GetExecutingAssembly());
     }
 }

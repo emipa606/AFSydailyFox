@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Bullet -->
+  <ThingDef>
+    <defName>SydailyCrystalSpawn_Purple</defName>
+    <!-- Sydaily Fox Attack -->
+    <thingClass>DragonsRangedAttack.Projectile_Explode</thingClass>
+    <!-- Use animal range source -->
+    <label>-</label>
+    <!-- NOTG -->
+    <graphicData>
+      <texPath>NOTG</texPath>
+      <shaderType>TransparentPostLight</shaderType>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <category>Projectile</category>
+    <tickerType>Normal</tickerType>
+    <altitudeLayer>Projectile</altitudeLayer>
+    <useHitPoints>False</useHitPoints>
+    <neverMultiSelect>True</neverMultiSelect>
+    <projectile>
+      <speed>25200</speed>
+      <damageDef>SydailyCrystalAttack_Purple</damageDef>
+      <flyOverhead>true</flyOverhead>
+      <explosionEffect>Sign_SydailyFoxAttack</explosionEffect>
+      <!-- Sign -->
+      <preExplosionSpawnThingDef>Attack_SydailyFox</preExplosionSpawnThingDef>
+      <!--Attack_SydailyFox -->
+      <preExplosionSpawnChance>1</preExplosionSpawnChance>
+      <stoppingPower>0</stoppingPower>
+      <armorPenetrationBase>0</armorPenetrationBase>
+      <damageAmountBase>0</damageAmountBase>
+      <explosionRadius>0.1</explosionRadius>
+    </projectile>
+  </ThingDef>
+  <!-- Damage -->
+  <DamageDef ParentName="AF_SydailyFlashDamageBase">
+    <defName>SydailyCrystalAttack_Purple</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>-</label>
+    <!-- NOTG -->
+    <hasForcefulImpact>false</hasForcefulImpact>
+    <canInterruptJobs>false</canInterruptJobs>
+    <externalViolence>true</externalViolence>
+    <minDamageToFragment>0</minDamageToFragment>
+    <defaultDamage>0</defaultDamage>
+    <defaultStoppingPower>0</defaultStoppingPower>
+    <defaultArmorPenetration>0</defaultArmorPenetration>
+    <buildingDamageFactor>0</buildingDamageFactor>
+    <plantDamageFactor>0</plantDamageFactor>
+    <explosionHeatEnergyPerCell>0</explosionHeatEnergyPerCell>
+    <explosionCellMote>AF_Mote_NOTG</explosionCellMote>
+    <!-- NOTG -->
+    <soundExplosion>AF_SO_SUSSB_Stop</soundExplosion>
+    <!-- NOTG -->
+    <combatLogRules>Damage_Flame</combatLogRules>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+    <isExplosive>true</isExplosive>
+  </DamageDef>
+</Defs>

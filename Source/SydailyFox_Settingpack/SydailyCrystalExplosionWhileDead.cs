@@ -12,10 +12,19 @@ internal class SydailyCrystalExplosionWhileDead : DeathActionWorker
 
     public override void PawnDied(Corpse corpse, Lord prevLord)
     {
-        GenExplosion.DoExplosion(
-            radius: corpse.InnerPawn.ageTracker.CurLifeStageIndex == 0 ? 3.6f :
-            corpse.InnerPawn.ageTracker.CurLifeStageIndex != 120 ? 8.4f : 5.2f, center: corpse.Position,
-            map: corpse.Map, damType: DFFerian_Damage.AF_DA_SydailyCrystalExplosion_Purple,
-            instigator: corpse.InnerPawn);
+        if (corpse.InnerPawn.ageTracker.CurLifeStageIndex == 0)
+        {
+            GenExplosion.DoExplosion(
+                radius: 3.6f, center: corpse.Position,
+                map: corpse.Map, damType: DFFerian_Damage.AF_DA_SydailyCrystalExplosion_Purple,
+                instigator: corpse.InnerPawn);
+        }
+        else
+        {
+            GenExplosion.DoExplosion(
+                radius: corpse.InnerPawn.ageTracker.CurLifeStageIndex != 120 ? 8.4f : 5.2f, center: corpse.Position,
+                map: corpse.Map, damType: DFFerian_Damage.AF_DA_SydailyCrystalExplosion_Purple,
+                instigator: corpse.InnerPawn);
+        }
     }
 }

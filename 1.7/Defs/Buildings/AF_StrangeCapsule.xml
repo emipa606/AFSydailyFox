@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AF_NaturalBuildingBase">
+    <defName>AF_StrangeCapsule</defName>
+    <label>胶囊舱</label>
+    <description>一枚胶囊舱，倒计时42秒。
+				\n\n【请立即调低音量！】</description>
+    <size>(3,3)</size>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(6.2,6.2)</drawSize>
+      <texPath>Buildings/StrangeCapsule</texPath>
+      <damageData>
+        <rect>(0.05,0.05,0.3,0.3)</rect>
+      </damageData>
+    </graphicData>
+    <statBases>
+      <WorkToBuild>0</WorkToBuild>
+      <MarketValue>0</MarketValue>
+      <Beauty>0</Beauty>
+      <Mass>0</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <fillPercent>0</fillPercent>
+    <!-- PutOnTables -->
+    <pathCost>0</pathCost>
+    <rotatable>false</rotatable>
+    <!-- Single -->
+    <minifiedDef />
+    <thingCategories Inherit="false" />
+    <altitudeLayer>Weather</altitudeLayer>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <canOverlapZones>false</canOverlapZones>
+    <passability>Impassable</passability>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <constructEffect>ConstructMetal</constructEffect>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>false</useHitPoints>
+    <!-- nohitpoints -->
+    <techLevel>Neolithic</techLevel>
+    <placeWorkers>
+      <li>PlaceWorker_PreventInteractionSpotOverlap</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <building>
+      <isMealSource>true</isMealSource>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+    </building>
+    <soundImpactDefault>AF_Sound_NOTG</soundImpactDefault>
+    <comps>
+      <li Class="CompProperties_MoteEmitter">
+        <mote>Mote_PsychicConditionCauserEffect</mote>
+        <emissionInterval>142</emissionInterval>
+      </li>
+      <li Class="SydailyFox_Settingpack.Attack_SydailyFox_ON">
+        <lifespanTicks>2520</lifespanTicks>
+        <!-- Use 42 Seconds -->
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>1</explosiveRadius>
+        <explosiveDamageType>AF_DA_StrangeCapsuleOpen</explosiveDamageType>
+        <destroyThingOnExplosionSize>1</destroyThingOnExplosionSize>
+        <startWickHitPointsPercent>0.10</startWickHitPointsPercent>
+        <preExplosionSpawnThingDef>AF_FailedExperiments</preExplosionSpawnThingDef>
+        <!--AF_FailedExperiments -->
+        <preExplosionSpawnChance>0.25</preExplosionSpawnChance>
+        <explosionEffect>AF_Effect_BloodFog</explosionEffect>
+        <wickTicks>
+          <min>0</min>
+          <max>42</max>
+        </wickTicks>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>2.4</glowRadius>
+        <glowColor>(135,180,255,0)</glowColor>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

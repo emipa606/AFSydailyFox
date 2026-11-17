@@ -16,8 +16,8 @@ public class PlaceWorker_MegaStatue : PlaceWorker
         return true;
     }
 
-    public override bool ForceAllowPlaceOver(BuildableDef otherDef)
+    public override bool ForceAllowPlaceOver(BuildableDef other)
     {
-        return otherDef == DFFerian_Thing.FAN_Statue;
+        return other == DFFerian_Thing.FAN_Statue;
     }
 }

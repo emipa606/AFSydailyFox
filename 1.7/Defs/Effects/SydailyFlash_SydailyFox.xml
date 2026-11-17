@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>AF_SydailyFoxEffect_SydailyFlash</defName>
+    <graphicData>
+      <texPath>Effects/SydailyFox_SydailyFlash</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(0.42,0.42)</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.42</fadeInTime>
+      <solidTime>1.42</solidTime>
+      <fadeOutTime>4.42</fadeOutTime>
+      <growthRate>0</growthRate>
+    </mote>
+  </ThingDef>
+</Defs>

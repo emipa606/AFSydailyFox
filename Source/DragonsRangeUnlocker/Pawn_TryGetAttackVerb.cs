@@ -6,7 +6,7 @@ namespace DragonsRangedAttack;
 [HarmonyPatch(typeof(Pawn), nameof(Pawn.TryGetAttackVerb))]
 public static class Pawn_TryGetAttackVerb
 {
-    private static bool Prefix(ref Pawn __instance, ref Verb __result)
+    public static bool Prefix(ref Pawn __instance, ref Verb __result)
     {
         if (!__instance.AnimalOrWildMan())
         {

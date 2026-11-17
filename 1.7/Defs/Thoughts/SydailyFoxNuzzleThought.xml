@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>SydailyFoxNuzzleThought</defName>
+    <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+    <durationDays>2.4</durationDays>
+    <stackLimit>24</stackLimit>
+    <stackedEffectMultiplier>0.42</stackedEffectMultiplier>
+    <stages>
+      <li>
+        <label>冰冰凉的亲昵</label>
+        <description>那只奇怪的狐狸用它毛茸茸的身子蹭了蹭我，
+						\n那种冰冰凉的感觉真的太赞了~</description>
+        <baseMoodEffect>4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

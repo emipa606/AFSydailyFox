@@ -16,7 +16,7 @@ public class TrytoMakeSydailyFoxWarningEffect : Verb_Shoot
         var mapHeld = caster.MapHeld;
         var size = Mathf.Clamp01(this.GetProjectile()?.projectile?.GetDamageAmount(caster) / 1f ?? 1f);
         AF_MakeSydailyFox_Warning.ShootSydailyFlash(loc, mapHeld, size);
-        AF_MakeSydailyFox_Warning.AF_MakeSydailyBomb_SpawnFlash.ShootSydailyFlash(loc, mapHeld, size);
+        AF_MakeSydailyFox_Warning.AF_MakeSydailyBomb_SpawnFlash.ShootSydailyFlashInternal(loc, mapHeld, size);
         return true;
     }
 
@@ -45,7 +45,7 @@ public class TrytoMakeSydailyFoxWarningEffect : Verb_Shoot
         {
             public TrytoMakeSydailyFoxWarningEffect caster;
 
-            public static void ShootSydailyFlash(Vector3 loc, Map map, float size)
+            public static void ShootSydailyFlashInternal(Vector3 loc, Map map, float size)
             {
                 if (!loc.ShouldSpawnMotesAt(map) || map.moteCounter.SaturatedLowPriority)
                 {

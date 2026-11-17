@@ -14,7 +14,7 @@ public class ShowTheSydailyHediffEffect : HediffCompProperties
 
     public ThingDef mote;
 
-    private FloatRange moteOffsetRange = new FloatRange(0.2f, 0.4f);
+    private FloatRange moteOffsetRange = new(0.2f, 0.4f);
 
     public SoundDef sound;
 
@@ -23,7 +23,7 @@ public class ShowTheSydailyHediffEffect : HediffCompProperties
         compClass = typeof(PlaySydailyHediffPost);
     }
 
-    private class PlaySydailyHediffPost : HediffComp
+    private sealed class PlaySydailyHediffPost : HediffComp
     {
         private ShowTheSydailyHediffEffect Props => (ShowTheSydailyHediffEffect)props;
 

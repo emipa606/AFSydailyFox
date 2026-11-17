@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>SydailyShoot_Tail</defName>
+    <!-- ShootTail -->
+    <context>MapOnly</context>
+    <maxVoices>1</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Weapons/SydailyShoot_Tail</clipPath>
+          </li>
+        </grains>
+        <volumeRange>5.23529~2.05882</volumeRange>
+        <pitchRange>0.9082352~1.091765</pitchRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

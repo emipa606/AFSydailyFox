@@ -356,9 +356,23 @@ public static class ARA_AttackTargetFinder
                     searchForTarget = false;
                 }
 
-                var num3 = thing == searcher ? 40f :
-                    thing is not Pawn ? 10f :
-                    !thing.def.race.Animal ? 18f : 7f;
+                float num3;
+                if (thing == searcher)
+                {
+                    num3 = 40f;
+                }
+                else
+                {
+                    if (thing is not Pawn)
+                    {
+                        num3 = 10f;
+                    }
+                    else
+                    {
+                        num3 = !thing.def.race.Animal ? 18f : 7f;
+                    }
+                }
+
                 num2 = !searcher.Thing.HostileTo(thing) ? num2 - num3 : num2 + (num3 * 0.6f);
             }
         }
@@ -375,26 +389,14 @@ public static class ARA_AttackTargetFinder
     private static bool canSee(this Thing seer, Thing target, Func<IntVec3, bool> validator = null)
     {
         ShootLeanUtility.CalcShootableCellsOf(tempDestList, target, seer.Position);
-        foreach (var intVec3 in tempDestList)
+        if (tempDestList.Any(intVec3 => GenSight.LineOfSight(seer.Position, intVec3, seer.Map, true, validator)))
         {
-            if (GenSight.LineOfSight(seer.Position, intVec3, seer.Map, true, validator))
-            {
-                return true;
-            }
+            return true;
         }
 
         ShootLeanUtility.LeanShootingSourcesFromTo(seer.Position, target.Position, seer.Map, tempSourceList);
-        foreach (var intVec3 in tempSourceList)
-        {
-            foreach (var vec3 in tempDestList)
-            {
-                if (GenSight.LineOfSight(intVec3, vec3, seer.Map, true, validator))
-                {
-                    return true;
-                }
-            }
-        }
 
-        return false;
+        return tempSourceList.Any(intVec3 =>
+            tempDestList.Any(vec3 => GenSight.LineOfSight(intVec3, vec3, seer.Map, true, validator)));
     }
 }

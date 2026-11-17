@@ -9,7 +9,7 @@ namespace DragonsRangedAttack;
 [HarmonyPatch(typeof(JobGiver_AIDefendPawn), "TryGiveJob")]
 internal static class JobGiver_AIDefendPawn_TryGiveJob
 {
-    private static bool Prefix(ref JobGiver_AIFightEnemy __instance, ref Job __result, ref Pawn pawn)
+    public static bool Prefix(ref JobGiver_AIFightEnemy __instance, ref Job __result, ref Pawn pawn)
     {
         bool result;
         if (!pawn.RaceProps.Animal)

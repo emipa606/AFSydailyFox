@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="AF_NaturalBuildingBase">
+    <defName>Attack_SydailyFox</defName>
+    <label>&lt;color=#b487ff>斯黛莉晶雷&lt;/color></label>
+    <description>你个肮脏的黑客！</description>
+    <thingClass>Building</thingClass>
+    <size>(1,1)</size>
+    <minifiedDef />
+    <thingCategories Inherit="false" />
+    <graphicData>
+      <texPath>NOTG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <!-- Graphic_Single -->
+      <shaderType>Transparent</shaderType>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MarketValue>0</MarketValue>
+      <Mass>0</Mass>
+      <WorkToBuild>0</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>25200</Beauty>
+    </statBases>
+    <fillPercent>0</fillPercent>
+    <!-- PutOnTables -->
+    <pathCost>0</pathCost>
+    <selectable>false</selectable>
+    <useHitPoints>false</useHitPoints>
+    <!-- from Sydaily -->
+    <rotatable>false</rotatable>
+    <!-- Graphic_Single -->
+    <altitudeLayer>Building</altitudeLayer>
+    <drawerType>RealtimeOnly</drawerType>
+    <tickerType>Normal</tickerType>
+    <stealable>false</stealable>
+    <constructEffect>ConstructWood</constructEffect>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <tradeability>None</tradeability>
+    <techLevel>Neolithic</techLevel>
+    <building>
+      <isMealSource>false</isMealSource>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+      <!-- Sydaily Bomb -->
+    </building>
+    <comps>
+      <li Class="CompProperties_AmbientSound">
+        <sound>AF_SOSP_SydailyBomb</sound>
+      </li>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>8.2</explosiveRadius>
+        <explosiveDamageType>AF_DA_SydailyCrystalExplosion_PurpleWithMoteNOTG</explosiveDamageType>
+        <!-- AF_DA_SydailyCrystalExplosion_PurpleWithMoteNOTG -->
+        <explosiveExpandPerStackcount>1</explosiveExpandPerStackcount>
+        <startWickHitPointsPercent>0</startWickHitPointsPercent>
+        <wickTicks>60~120</wickTicks>
+        <damageFalloff>true</damageFalloff>
+        <explosionEffect>Effect_SydailyCrystalExplosion_Purple</explosionEffect>
+        <!-- Purple -->
+        <explosionSound>AF_SO_SydailyCrystalExplosion</explosionSound>
+      </li>
+      <li Class="SydailyFox_Settingpack.Attack_SydailyFox_ON">
+        <lifespanTicks>216</lifespanTicks>
+        <!-- Use 3.6 Seconds -->
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>4.2</glowRadius>
+        <glowColor>(180,135,255,0)</glowColor>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- AF_SydailyBomb_BombEffect -->
+        <mote>AF_SydailyBomb_BombEffect</mote>
+        <!-- AnimationRoad-A -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>4</TicktoSpawn>
+        <!-- 1/15T -->
+        <QuantitytoSpawn>2</QuantitytoSpawn>
+        <PlaySize>0.98~1.02</PlaySize>
+        <RotationRate>0~0</RotationRate>
+        <SpeedrangeX>-0.8~0.8</SpeedrangeX>
+        <SpeedrangeY>-0.8~0.8</SpeedrangeY>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- AF_SydailyBomb_SpawnFlash -->
+        <mote>AF_SydailyBomb_SpawnFlash</mote>
+        <!-- AnimationRoad-B1 -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>12</TicktoSpawn>
+        <!-- 1/5T -->
+        <PlaySize>0.98~1.02</PlaySize>
+        <RotationRate>0~0</RotationRate>
+        <SpeedrangeX>-0.8~0.8</SpeedrangeX>
+        <SpeedrangeY>-0.8~0.8</SpeedrangeY>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- AF_SydailyBomb_SpawnFlash -->
+        <mote>AF_SydailyBomb_SpawnFlash</mote>
+        <!-- AnimationRoad-B2 -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>27</TicktoSpawn>
+        <!-- 1/8L -->
+        <PlaySize>0.98~1.02</PlaySize>
+        <RotationRate>0~0</RotationRate>
+        <SpeedrangeX>-0.8~0.8</SpeedrangeX>
+        <SpeedrangeY>-0.8~0.8</SpeedrangeY>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- SydailyBomb_Flash -->
+        <mote>SydailyBomb_Flash</mote>
+        <!-- AnimationRoad-B/C -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>27</TicktoSpawn>
+        <!-- 1/8L -->
+        <QuantitytoSpawn>1</QuantitytoSpawn>
+        <PlaySize>1~1</PlaySize>
+        <RotationRate>-142~142</RotationRate>
+        <SpeedrangeX>0~0</SpeedrangeX>
+        <SpeedrangeY>0~0</SpeedrangeY>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- SydailyBomb_Final -->
+        <mote>SydailyBomb_Final</mote>
+        <!-- AnimationRoad-B/CR -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>162</TicktoSpawn>
+        <!-- 3/4L -->
+        <PlaySize>1~1</PlaySize>
+        <RotationRate>0~0</RotationRate>
+        <SpeedrangeX>0~0</SpeedrangeX>
+        <SpeedrangeY>0~0</SpeedrangeY>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- AF_SydailyBomb_SpawnFlashLong -->
+        <mote>AF_SydailyBomb_SpawnFlashLong</mote>
+        <!-- AnimationRoad-B3/CR1 -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>54</TicktoSpawn>
+        <!-- 3/4L -->
+        <PlaySize>1.25~2.25</PlaySize>
+        <RotationRate>0~0</RotationRate>
+        <SpeedrangeX>0~0</SpeedrangeX>
+        <SpeedrangeY>0~0</SpeedrangeY>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- AF_SydailyBomb_SpawnFlashLong -->
+        <mote>AF_SydailyBomb_SpawnFlashLong</mote>
+        <!-- AnimationRoad-B3/CR2 -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>172</TicktoSpawn>
+        <!-- 4/5L -->
+        <PlaySize>2.25~3.00</PlaySize>
+        <RotationRate>0~0</RotationRate>
+        <SpeedrangeX>0~0</SpeedrangeX>
+        <SpeedrangeY>0~0</SpeedrangeY>
+      </li>
+      <li Class="SydailyFox_Settingpack.AF_PlaySpecialAnimation_ON">
+        <!-- AF_SydailyBomb_SpawnFlashLong -->
+        <mote>AF_SydailyBomb_SpawnFlashLong</mote>
+        <!-- AnimationRoad-B3/CR3 -->
+        <StartRange>(0,0,0)</StartRange>
+        <EndRange>(0,0,0)</EndRange>
+        <TicktoSpawn>192</TicktoSpawn>
+        <!-- 4/5L -->
+        <PlaySize>2.25~3.00</PlaySize>
+        <RotationRate>0~0</RotationRate>
+        <SpeedrangeX>0~0</SpeedrangeX>
+        <SpeedrangeY>0~0</SpeedrangeY>
+      </li>
+    </comps>
+    <uiIconPath>Fox/SydailyFox_north</uiIconPath>
+    <!-- UI -->
+    <uiIconScale>14.2</uiIconScale>
+  </ThingDef>
+  <ThingDef ParentName="AF_NaturalBuildingBase">
+    <defName>Attack_SydailyFox_description</defName>
+    <label>【&lt;color=#b487ff>Attack&lt;/color>】</label>
+    <description>斯黛莉晶狐可以在【非密闭空间】内召唤某种能量体来保护自己。
+	\n若存在其他生物指引，其范围可以覆盖至世界上每一个角落。
+	\n\n现在一起数：
+	\n-1,
+	\n---2,
+	\n-----3.</description>
+    <thingClass>Building</thingClass>
+    <size>(42,1)</size>
+    <minifiedDef />
+    <thingCategories Inherit="false" />
+    <graphicData>
+      <texPath>NOTG</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Transparent</shaderType>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>42</MaxHitPoints>
+      <MarketValue>0</MarketValue>
+      <Mass>0</Mass>
+      <Flammability>0.42</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <useHitPoints>true</useHitPoints>
+    <building>
+      <isMealSource>false</isMealSource>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isEdifice>false</isEdifice>
+      <claimable>false</claimable>
+      <deconstructible>false</deconstructible>
+    </building>
+    <uiIconPath>Interactions/HEOOW</uiIconPath>
+    <uiIconScale>82</uiIconScale>
+  </ThingDef>
+</Defs>

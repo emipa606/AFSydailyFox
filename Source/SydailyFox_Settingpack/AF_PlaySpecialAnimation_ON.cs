@@ -12,7 +12,6 @@ public class AF_PlaySpecialAnimation_ON : CompProperties
     public Vector3 EndRange;
 
     public Color FirstColor;
-    public ThingDef mote;
 
     public FloatRange PlaySize;
 
@@ -25,6 +24,7 @@ public class AF_PlaySpecialAnimation_ON : CompProperties
     public FloatRange SpeedrangeY;
 
     public Vector3 StartRange;
+    public ThingDef mote;
 
     public AF_PlaySpecialAnimation_ON()
     {

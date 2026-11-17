@@ -4,7 +4,7 @@ using Verse;
 namespace SydailyFox_Settingpack;
 
 [DefOf]
-public class DFFerian_Thing
+public static class DFFerian_Thing
 {
     public static ThingDef AF_SydailyBomb_SpawnFlash;
 

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="MoteBase">
+    <defName>SydailyCrystalExplosion_Purple_ON</defName>
+    <!-- SydailyCrystalExplosion_Purple_ON -->
+    <graphicData>
+      <texPath>Effects/SydailyFlash_Purple</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>10.2</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <solidTime>0</solidTime>
+      <fadeOutTime>0.82</fadeOutTime>
+      <growthRate>8.42</growthRate>
+    </mote>
+  </ThingDef>
+  <ThingDef ParentName="MoteBase">
+    <defName>SydailyCrystalExplosion_Purple_IN</defName>
+    <!-- SydailyCrystalExplosion_Purple_IN -->
+    <graphicData>
+      <texPath>Effects/SydailyFlash_Purple</texPath>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>6.2</drawSize>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>1.42</fadeInTime>
+      <solidTime>0.24</solidTime>
+      <fadeOutTime>1.42</fadeOutTime>
+      <growthRate>0.42</growthRate>
+    </mote>
+  </ThingDef>
+  <EffecterDef>
+    <defName>Effect_SydailyCrystalExplosion_Purple</defName>
+    <!-- Effect_SydailyCrystalExplosion_Purple -->
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>SydailyCrystalExplosion_Purple_ON</moteDef>
+        <scale>
+          <min>1</min>
+          <max>1</max>
+        </scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>SydailyCrystalExplosion_Purple_IN</moteDef>
+        <scale>
+          <min>1</min>
+          <max>1</max>
+        </scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>SydailyCrystalExplosion_Purple_IN</moteDef>
+        <scale>
+          <min>4.2</min>
+          <max>4.2</max>
+        </scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>SydailyCrystalExplosion_Purple_IN</moteDef>
+        <scale>
+          <min>4.2</min>
+          <max>4.2</max>
+        </scale>
+      </li>
+    </children>
+  </EffecterDef>
+</Defs>

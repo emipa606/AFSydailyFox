@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>BloodFog_Thought_Ferian_A</defName>
+    <workerClass>SydailyFox_Settingpack.ThoughtWorker_BloodFog_A</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+    <requiredTraits>
+      <li>Miraculous</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>熟悉的感觉</label>
+        <description>那是...</description>
+        <baseMoodEffect>24</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  <ThoughtDef>
+    <defName>BloodFog_Thought_Ferian_B</defName>
+    <workerClass>SydailyFox_Settingpack.ThoughtWorker_BloodFog_B</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <effectMultiplyingStat>PsychicSensitivity</effectMultiplyingStat>
+    <requiredTraits>
+      <li>Miraculous</li>
+    </requiredTraits>
+    <stages>
+      <li>
+        <label>令人作呕的肉块</label>
+        <description>看上去是其他菲狐的杰作呢~
+			\n\n那么那些成功的小可爱们在哪呢？</description>
+        <baseMoodEffect>12</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>
